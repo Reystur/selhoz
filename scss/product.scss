@@ -1,0 +1,228 @@
+.product{
+  width: 288px;
+  float: left;
+  margin-left: 16px;
+
+  &:first-child{
+    margin-left: 0;
+  }
+}
+
+.product__box{
+  width: 288px;
+  height: 349px;
+  position: relative;
+
+  &:hover{
+    box-shadow: 0 0 7px rgba(0,0,0,0.35);
+
+    .product__origin-text{
+      display: block;
+    }
+
+    .product__seller{
+      display: block;
+    }
+
+    .product__post-comment{
+      display: block;
+    }
+  }
+}
+
+.product__badge{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 62px;
+  height: 58px;
+}
+
+.product__badge_sale{
+  background: url("../img/badges/sale.png");
+}
+
+.product__badge_new{
+  background: url("../img/badges/new.png");
+}
+
+.product__badge_kosher{
+  background: url("../img/badges/kosher.png");
+}
+
+.product__badge_religion{
+  background: url("../img/badges/religion.png");
+}
+
+.product__badge_child{
+  background: url("../img/badges/child.png");
+}
+
+.product__badge_discard{
+  background: url("../img/badges/discard.png");
+  cursor: pointer;
+}
+
+.product__origin{
+  padding: 15px 60px 0 30px;
+  height: 20px;
+  overflow: hidden;
+}
+
+.product__origin-text{
+  display: none;
+  font-size: 12px;
+  color: #939290;
+  font-family: Tahoma, Helvetica, sans-serif;
+}
+
+.product__title-box{
+  padding: 2px 30px 0;
+  position: relative;
+  height: 40px;
+}
+
+.product__title{
+  font-size: 15px;
+  color: #20201f;
+  max-height: 40px;
+  overflow: hidden;
+  font-family: Tahoma, Helvetica, sans-serif;
+}
+
+.product__volume{
+  position: absolute;
+  top: 100%;
+  left: 30px;
+  width: 50%;
+  font-size: 15px;
+  color: #787877;
+  font-family: Tahoma, Helvetica, sans-serif;
+  max-height: 20px;
+  overflow: hidden;
+}
+
+.product__pic-box{
+  height: 170px;
+  text-align: center;
+}
+
+.product__pic{
+  max-height: 150px;
+  max-width: 220px;
+}
+
+.product__price_old{
+  position: absolute;
+  right: 20px;
+  top: 170px;
+  font-size: 25px;
+  color: #676663;
+  font-family: Tahoma, Helvetica, sans-serif;
+
+  &:after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    top: 48%;
+  }
+}
+
+.product__price{
+  position: absolute;
+  right: 20px;
+  top: 200px;
+  font-size: 25px;
+  color: #20201f;
+  font-family: Tahoma, Helvetica, sans-serif;
+}
+
+.product__to-cart{
+  display: block;
+  border: 1px solid #489247;
+  line-height: 48px;
+  text-align: center;
+  font-size: 20px;
+  color: #6aaa6d;
+  font-family: Tahoma, Helvetica, sans-serif;
+}
+
+.product__cart{
+  border: 1px solid #489247;
+  height: 48px;
+}
+
+.product__cart-edit{
+  line-height: 48px;
+  font-size: 20px;
+  font-family: Tahoma, Helvetica, sans-serif;
+  text-align: center;
+  display: block;
+  width: 33.33%;
+}
+
+.product__cart-edit_less{
+  color: #fff;
+  background-color: #6aaa6d;
+  float: left;
+}
+
+.product__cart-edit_value{
+  color: #6aaa6d;
+  margin: 0 auto;
+}
+
+.product__cart-edit_more{
+  color: #fff;
+  background-color: #6aaa6d;
+  float: right;
+}
+
+.product__seller{
+  padding: 15px 20px 0 30px;
+  display: none;
+}
+
+.product__seller-reputation-box{
+  float: right;
+  width: 80px;
+}
+
+.product__seller-star-box{
+  float: left;
+  line-height: 18px;
+  margin-right: 1px;
+}
+
+.product__seller-reputation{
+  float: right;
+  font-size: 15px;
+  line-height: 18px;
+  color: #f5d130;
+  font-family: Tahoma, Helvetica, sans-serif;
+}
+
+.product__seller-title{
+  font-size: 15px;
+  line-height: 18px;
+  color: #20201f;
+  font-family: Tahoma, Helvetica, sans-serif;
+  margin-right: 100px;
+}
+
+.product__post-comment{
+  cursor: pointer;
+  display: none;
+  font-size: 15px;
+  line-height: 29px;
+  height: 29px;
+  color: #f5d130;
+  font-family: Tahoma, Helvetica, sans-serif;
+  background: url("../img/post-comment.png") no-repeat left center;
+  margin: 10px 0 0 30px;
+  padding-left: 40px;
+}

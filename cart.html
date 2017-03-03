@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="js/lib/jquery/3.1.1.min.js"></script>
+    <title>Cart</title>
+</head>
+<body>
+<header class="header"></header>
+<script>
+    $(function () {
+        $(".header").load("header.html");
+    });
+</script>
+<div class="cart-page">
+    <div class="wrapper">
+        <div class="cart-details">
+            <div class="cart-details__pay-type-box">
+                <div class="cart-details__pay-type-title">Тип оплаты</div>
+                <div class="cart-details__pay-type">Наличными при получении</div>
+            </div>
+            <div class="cart-details__add-promo-box">
+                <a href="#" class="cart-details__add-promo">
+                   + Добавить промо код
+                </a>
+            </div>
+            <div class="cart-details__delivery-info">
+                <div class="cart-details__address-box">
+                    <div class="cart-details__address-title">Адрес доставки</div>
+                    <div class="cart-details__address">Ул Ленина 32</div>
+                </div>
+                <div class="cart-details__time-box">
+                    <div class="cart-details__time-title">Время доставки</div>
+                    <div class="cart-details__time">12:00</div>
+                </div>
+            </div>
+            <div class="cart-details__right">
+                <div class="cart-details__submit-box">
+                    <div class="cart-details__sum-box">
+                        <div class="cart-details__sum">6455,92 р.</div>
+                        <div class="cart-details__sum-title">С учетом доставки</div>
+                    </div>
+                    <a href="#" class="cart-details__submit">Оформить</a>
+                </div>
+                <div class="cart-details__additional">
+                    <a href="#" class="cart-details__refund">Политика возврата</a>
+                    <a href="#" class="cart-details__replace">Замена товара</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cart-summary">
+        <div class="wrapper cart-summary__wrapper">
+            <div class="cart-summary__elem cart-summary__count-box">
+                <img src="img/cart/count.png" alt="" class="cart-summary__pic">
+                <span class="cart-summary__count">8 Товаров</span>
+            </div>
+            <div class="cart-summary__elem cart-summary__weight-box">
+                <img src="img/cart/weight.png" alt="" class="cart-summary__pic">
+                <span class="cart-summary__weight">995г</span>
+            </div>
+            <a href="#" class="cart-summary__elem cart-summary__clear-box">
+                <img src="img/cart/clear.png" alt="" class="cart-summary__pic">
+                <span class="cart-summary__clear">Очистить козину</span>
+            </a>
+        </div>
+    </div>
+    <div class="cart-list">
+        <div class="wrapper">
+            <div class="cart-list__title">Корзина</div>
+            <div class="cart-list__box">
+                <div class="product">
+                    <div class="product__box">
+                        <div class="product__badge product__badge_discard"></div>
+                        <div class="product__price">266,49 р.</div>
+                        <div class="product__price_old">288,49 р.</div>
+                        <div class="product__origin">
+                            <span class="product__origin-text">Россия, Псков, регион Изборск</span>
+                        </div>
+                        <div class="product__title-box">
+                            <div class="product__title">
+                                Хинкали с говядиной и бараненной ТМ Риха
+                            </div>
+                            <div class="product__volume">800г</div>
+                        </div>
+                        <div class="product__pic-box">
+                            <img src="img/product/1.png" class="product__pic" alt="">
+                        </div>
+                        <div class="product__cart">
+                            <a href="#" class="product__cart-edit product__cart-edit_less">-</a>
+                            <a href="#" class="product__cart-edit product__cart-edit_more">+</a>
+                            <div class="product__cart-edit product__cart-edit_value">3</div>
+                        </div>
+                        <div class="product__post-comment">Оставить комментарий</div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product__box">
+                        <div class="product__badge product__badge_discard"></div>
+                        <div class="product__price">266,49 р.</div>
+                        <div class="product__price_old">288,49 р.</div>
+                        <div class="product__origin">
+                            <span class="product__origin-text">Россия, Псков, регион Изборск</span>
+                        </div>
+                        <div class="product__title-box">
+                            <div class="product__title">
+                                Хинкали с говядиной и бараненной ТМ Риха
+                            </div>
+                            <div class="product__volume">800г</div>
+                        </div>
+                        <div class="product__pic-box">
+                            <img src="img/product/1.png" class="product__pic" alt="">
+                        </div>
+                        <div class="product__cart">
+                            <a href="#" class="product__cart-edit product__cart-edit_less">-</a>
+                            <a href="#" class="product__cart-edit product__cart-edit_more">+</a>
+                            <div class="product__cart-edit product__cart-edit_value">3</div>
+                        </div>
+                        <div class="product__seller">
+                            <div class="product__seller-reputation-box">
+                                <div class="product__seller-star-box">
+                                    <img src="img/star-filled.png" alt="">
+                                </div>
+                                <div class="product__seller-star-box">
+                                    <img src="img/star-filled.png" alt="">
+                                </div>
+                                <div class="product__seller-star-box">
+                                    <img src="img/star-filled.png" alt="">
+                                </div>
+                                <div class="product__seller-star-box">
+                                    <img src="img/star-empty.png" alt="">
+                                </div>
+                                <div class="product__seller-star_empty"></div>
+                                <div class="product__seller-reputation">
+                                    4.5
+                                </div>
+                            </div>
+                            <div class="product__seller-title">Имя продавца</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product__box">
+                        <div class="product__badge product__badge_discard"></div>
+                        <div class="product__price">266,49 р.</div>
+                        <div class="product__price_old">288,49 р.</div>
+                        <div class="product__origin">
+                            <span class="product__origin-text">Россия, Псков, регион Изборск</span>
+                        </div>
+                        <div class="product__title-box">
+                            <div class="product__title">
+                                Хинкали с говядиной и бараненной ТМ Риха
+                            </div>
+                            <div class="product__volume">800г</div>
+                        </div>
+                        <div class="product__pic-box">
+                            <img src="img/product/1.png" class="product__pic" alt="">
+                        </div>
+                        <div class="product__cart">
+                            <a href="#" class="product__cart-edit product__cart-edit_less">-</a>
+                            <a href="#" class="product__cart-edit product__cart-edit_more">+</a>
+                            <div class="product__cart-edit product__cart-edit_value">3</div>
+                        </div>
+                        <div class="product__seller">
+                            <div class="product__seller-reputation-box">
+                                <div class="product__seller-star-box">
+                                    <img src="img/star-filled.png" alt="">
+                                </div>
+                                <div class="product__seller-star-box">
+                                    <img src="img/star-filled.png" alt="">
+                                </div>
+                                <div class="product__seller-star-box">
+                                    <img src="img/star-filled.png" alt="">
+                                </div>
+                                <div class="product__seller-star-box">
+                                    <img src="img/star-empty.png" alt="">
+                                </div>
+                                <div class="product__seller-star_empty"></div>
+                                <div class="product__seller-reputation">
+                                    4.5
+                                </div>
+                            </div>
+                            <div class="product__seller-title">Имя продавца</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product__box">
+                        <div class="product__badge product__badge_discard"></div>
+                        <div class="product__price">266,49 р.</div>
+                        <div class="product__price_old">288,49 р.</div>
+                        <div class="product__origin">
+                            <span class="product__origin-text">Россия, Псков, регион Изборск</span>
+                        </div>
+                        <div class="product__title-box">
+                            <div class="product__title">
+                                Хинкали с говядиной и бараненной ТМ Риха
+                            </div>
+                            <div class="product__volume">800г</div>
+                        </div>
+                        <div class="product__pic-box">
+                            <img src="img/product/1.png" class="product__pic" alt="">
+                        </div>
+                        <div class="product__cart">
+                            <a href="#" class="product__cart-edit product__cart-edit_less">-</a>
+                            <a href="#" class="product__cart-edit product__cart-edit_more">+</a>
+                            <div class="product__cart-edit product__cart-edit_value">3</div>
+                        </div>
+                        <div class="product__seller">
+                            <div class="product__seller-reputation-box">
+                                <div class="product__seller-star-box">
+                                    <img src="img/star-filled.png" alt="">
+                                </div>
+                                <div class="product__seller-star-box">
+                                    <img src="img/star-filled.png" alt="">
+                                </div>
+                                <div class="product__seller-star-box">
+                                    <img src="img/star-filled.png" alt="">
+                                </div>
+                                <div class="product__seller-star-box">
+                                    <img src="img/star-empty.png" alt="">
+                                </div>
+                                <div class="product__seller-star_empty"></div>
+                                <div class="product__seller-reputation">
+                                    4.5
+                                </div>
+                            </div>
+                            <div class="product__seller-title">Имя продавца</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product__box">
+                        <div class="product__badge product__badge_discard"></div>
+                        <div class="product__price">266,49 р.</div>
+                        <div class="product__price_old">288,49 р.</div>
+                        <div class="product__origin">
+                            <span class="product__origin-text">Россия, Псков, регион Изборск</span>
+                        </div>
+                        <div class="product__title-box">
+                            <div class="product__title">
+                                Хинкали с говядиной и бараненной ТМ Риха
+                            </div>
+                            <div class="product__volume">800г</div>
+                        </div>
+                        <div class="product__pic-box">
+                            <img src="img/product/1.png" class="product__pic" alt="">
+                        </div>
+                        <div class="product__cart">
+                            <a href="#" class="product__cart-edit product__cart-edit_less">-</a>
+                            <a href="#" class="product__cart-edit product__cart-edit_more">+</a>
+                            <div class="product__cart-edit product__cart-edit_value">3</div>
+                        </div>
+                        <div class="product__seller">
+                            <div class="product__seller-reputation-box">
+                                <div class="product__seller-star-box">
+                                    <img src="img/star-filled.png" alt="">
+                                </div>
+                                <div class="product__seller-star-box">
+                                    <img src="img/star-filled.png" alt="">
+                                </div>
+                                <div class="product__seller-star-box">
+                                    <img src="img/star-filled.png" alt="">
+                                </div>
+                                <div class="product__seller-star-box">
+                                    <img src="img/star-empty.png" alt="">
+                                </div>
+                                <div class="product__seller-star_empty"></div>
+                                <div class="product__seller-reputation">
+                                    4.5
+                                </div>
+                            </div>
+                            <div class="product__seller-title">Имя продавца</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-list__line"></div>
+            <div class="cart-list__summary">
+                <a href="#" class="cart-list__submit">Оформить</a>
+                <div class="cart-list__sum-box">
+                    <div class="cart-list__sum">6455,92 р.</div>
+                    <div class="cart-list__sum-title">С учетом доставки</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="footer"></footer>
+<script>
+    $(function () {
+        $(".footer").load("footer.html");
+    });
+</script>
+</body>
+</html>

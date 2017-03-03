@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="js/lib/jquery/3.1.1.min.js"></script>
+    <title>Main</title>
+</head>
+<body>
+<header class="header"></header>
+<script>
+    $(function () {
+        $(".header").load("header.html");
+    });
+</script>
+<div class="wrapper">
+    <div class="main-sidebar">
+        <div class="main-sidebar__category-0-box">
+            <a href="#"
+               class="main-sidebar__category-0 main-sidebar__category-0_expandable main-sidebar__category-0_expandable_active">Овощи,
+                фрукты, грибы, ягоды</a>
+
+            <div class="main-sidebar__category-1-list">
+                <div class="main-sidebar__category-1-box">
+                    <a href="#" class="main-sidebar__category-1">
+                        <div class="main-sidebar__category-1-img-box">
+                            <img src="img/categories/0/vegetables.png" alt="" class="main-sidebar__category-1-img">
+                        </div>
+                        <div class="main-sidebar__category-1-title">Овощи</div>
+                    </a>
+                </div>
+                <div class="main-sidebar__category-1-box">
+                    <a href="#" class="main-sidebar__category-1">
+                        <div class="main-sidebar__category-1-img-box">
+                            <img src="img/categories/0/fruits.png" alt="" class="main-sidebar__category-1-img">
+                        </div>
+                        <div class="main-sidebar__category-1-title">Фрукты</div>
+                    </a>
+                </div>
+                <div class="main-sidebar__category-1-box">
+                    <a href="#" class="main-sidebar__category-1">
+                        <div class="main-sidebar__category-1-img-box">
+                            <img src="img/categories/0/shrooms.png" alt="" class="main-sidebar__category-1-img">
+                        </div>
+                        <div class="main-sidebar__category-1-title">Грибы</div>
+                    </a>
+                </div>
+                <div class="main-sidebar__category-1-box">
+                    <a href="#" class="main-sidebar__category-1">
+                        <div class="main-sidebar__category-1-img-box">
+                            <img src="img/categories/0/berries.png" alt="" class="main-sidebar__category-1-img">
+                        </div>
+                        <div class="main-sidebar__category-1-title">Ягоды</div>
+                    </a>
+                </div>
+                <div class="main-sidebar__category-1-box">
+                    <a href="#" class="main-sidebar__category-1">
+                        <div class="main-sidebar__category-1-img-box">
+                            <img src="img/categories/0/nuts.png" alt="" class="main-sidebar__category-1-img">
+                        </div>
+                        <div class="main-sidebar__category-1-title">Орехи и сухофрукты</div>
+                    </a>
+                </div>
+                <div class="main-sidebar__category-1-box">
+                    <a href="#" class="main-sidebar__category-1 main-sidebar__category-1_expandable">
+                        <div class="main-sidebar__category-1-img-box">
+                            <img src="img/categories/0/freeze.png" alt="" class="main-sidebar__category-1-img">
+                        </div>
+                        <div class="main-sidebar__category-1-title">Заморозка</div>
+                    </a>
+                    <div class="main-sidebar__category-2-list">
+                        <a href="#" class="main-sidebar__category-2">Пункт 1</a>
+                        <a href="#" class="main-sidebar__category-2">Пункт 2</a>
+                        <a href="#" class="main-sidebar__category-2">Пункт 3</a>
+                        <a href="#" class="main-sidebar__category-2">Пункт 4</a>
+                    </div>
+                </div>
+                <div class="main-sidebar__category-1-box">
+                    <a href="#" class="main-sidebar__category-1">
+                        <div class="main-sidebar__category-1-img-box">
+                            <img src="img/categories/0/greens.png" alt="" class="main-sidebar__category-1-img">
+                        </div>
+                        <div class="main-sidebar__category-1-title">Зелень</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="main-sidebar__category-0-box">
+            <a href="#" class="main-sidebar__category-0 main-sidebar__category-0_expandable">Молочные продукты, сыр, яйца</a>
+        </div>
+        <div class="main-sidebar__category-0-box">
+            <a href="#" class="main-sidebar__category-0 main-sidebar__category-0_expandable">Птица</a>
+        </div>
+        <div class="main-sidebar__category-0-box">
+            <a href="#" class="main-sidebar__category-0 main-sidebar__category-0_expandable">Мясо</a>
+        </div>
+        <div class="main-sidebar__category-0-box">
+            <a href="#" class="main-sidebar__category-0 main-sidebar__category-0_expandable">Рыба и морепродукты</a>
+        </div>
+        <div class="main-sidebar__category-0-box">
+            <a href="#" class="main-sidebar__category-0 main-sidebar__category-0_expandable">Колбасы, сосиски, ветчина, сало</a>
+        </div>
+        <div class="main-sidebar__category-0-box">
+            <a href="#" class="main-sidebar__category-0 main-sidebar__category-0_expandable">Дичь</a>
+        </div>
+        <div class="main-sidebar__category-0-box">
+            <a href="#" class="main-sidebar__category-0 main-sidebar__category-0_expandable">Крупы, каши, макаронные изделия</a>
+        </div>
+        <div class="main-sidebar__category-0-box">
+            <a href="#" class="main-sidebar__category-0 main-sidebar__category-0_expandable">Специи, соусы, майонез, кетчуп</a>
+        </div>
+        <div class="main-sidebar__category-0-box">
+            <a href="#" class="main-sidebar__category-0 main-sidebar__category-0_expandable">Хлеб, выпечка</a>
+        </div>
+        <div class="main-sidebar__category-0-box">
+            <a href="#" class="main-sidebar__category-0 main-sidebar__category-0_expandable">Сладости</a>
+        </div>
+        <div class="main-sidebar__category-0-box">
+            <a href="#" class="main-sidebar__category-0 main-sidebar__category-0_expandable">Консервы и заготовки</a>
+        </div>
+        <div class="main-sidebar__category-0-box">
+            <a href="#" class="main-sidebar__category-0 main-sidebar__category-0_expandable">Соленья и маринады</a>
+        </div>
+        <div class="main-sidebar__category-0-box">
+            <a href="#" class="main-sidebar__category-0 main-sidebar__category-0_expandable">Кофе и чай</a>
+        </div>
+        <div class="main-sidebar__category-0-box">
+            <a href="#" class="main-sidebar__category-0 main-sidebar__category-0_expandable">Вода, соки и лимонады</a>
+        </div>
+        <div class="main-sidebar__category-0-box">
+            <a href="#" class="main-sidebar__category-0 main-sidebar__category-0_expandable">Здоровье, диеты</a>
+        </div>
+        <div class="main-sidebar__category-0-box">
+            <a href="#" class="main-sidebar__category-0 main-sidebar__category-0_expandable">Для детей и мам</a>
+        </div>
+        <div class="main-sidebar__category-0-box">
+            <a href="#" class="main-sidebar__category-0 main-sidebar__category-0_expandable">Гигиена, косметика</a>
+        </div>
+        <div class="main-sidebar__category-0-box">
+            <a href="#" class="main-sidebar__category-0 main-sidebar__category-0_expandable">Для дома, чистота</a>
+        </div>
+        <div class="main-sidebar__category-0-box">
+            <a href="#" class="main-sidebar__category-0">Корм для животных</a>
+        </div>
+        <div class="main-sidebar__category-0-box">
+            <a href="#" class="main-sidebar__category-0">Народные промыслы</a>
+        </div>
+        <div class="main-sidebar__category-0-box">
+            <a href="#" class="main-sidebar__category-0">Строительные товары</a>
+        </div>
+        <div class="main-sidebar__category-0-box">
+            <a href="#" class="main-sidebar__category-0 main-sidebar__category-0_expandable">Услуги</a>
+        </div>
+    </div>
+    <div class="main">
+        <div class="slider">
+            <img src="img/slider/slide-0.png" alt="" class="slider-pic">
+            <div class="slider__arrow slider__arrow_right"></div>
+            <div class="slider__arrow slider__arrow_left"></div>
+        </div>
+        <div class="main-products">
+            <div class="main-products__unit main-products__unit_week">
+                <a href="#" class="main-products__arrow main-products__arrow_left"></a>
+                <a href="#" class="main-products__arrow main-products__arrow_right"></a>
+                <div class="main-products__title-box">
+                    <div class="main-products__title">Товары недели</div>
+                </div>
+                <div class="main__product-list">
+                    <div class="product">
+                        <div class="product__box">
+                            <div class="product__badge"></div>
+                            <div class="product__price">266,49 р.</div>
+                            <div class="product__price_old">288,49 р.</div>
+                            <div class="product__origin">
+                                <span class="product__origin-text">Россия, Псков, регион Изборск</span>
+                            </div>
+                            <div class="product__title-box">
+                                <div class="product__title">
+                                    Хинкали с говядиной и бараненной ТМ Риха
+                                </div>
+                                <div class="product__volume">800г</div>
+                            </div>
+                            <div class="product__pic-box">
+                                <img src="img/product/1.png" class="product__pic" alt="">
+                            </div>
+                            <div class="product__cart">
+                                <a href="#" class="product__cart-edit product__cart-edit_less">-</a>
+                                <a href="#" class="product__cart-edit product__cart-edit_more">+</a>
+                                <div class="product__cart-edit product__cart-edit_value">3</div>
+                            </div>
+                            <div class="product__seller">
+                                <div class="product__seller-reputation-box">
+                                    <div class="product__seller-star-box">
+                                        <img src="img/star-filled.png" alt="">
+                                    </div>
+                                    <div class="product__seller-star-box">
+                                        <img src="img/star-filled.png" alt="">
+                                    </div>
+                                    <div class="product__seller-star-box">
+                                        <img src="img/star-filled.png" alt="">
+                                    </div>
+                                    <div class="product__seller-star-box">
+                                        <img src="img/star-empty.png" alt="">
+                                    </div>
+                                    <div class="product__seller-star_empty"></div>
+                                    <div class="product__seller-reputation">
+                                        4.5
+                                    </div>
+                                </div>
+                                <div class="product__seller-title">Имя продавца</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__box">
+                            <div class="product__badge product__badge_sale"></div>
+                            <div class="product__price">17,78 р/кг</div>
+                            <div class="product__price_old"></div>
+                            <div class="product__origin">
+                                <span class="product__origin-text">Россия, Псков, регион Изборск</span>
+                            </div>
+                            <div class="product__title-box">
+                                <div class="product__title">
+                                    Свекла эконом
+                                </div>
+                                <div class="product__volume">вес.</div>
+                            </div>
+                            <div class="product__pic-box">
+                                <img src="img/product/2.png" class="product__pic" alt="">
+                            </div>
+                            <a href="#" class="product__to-cart">В корзину</a>
+                            <div class="product__seller">
+                                <div class="product__seller-reputation-box">
+                                    <div class="product__seller-star-box">
+                                        <img src="img/star-filled.png" alt="">
+                                    </div>
+                                    <div class="product__seller-star-box">
+                                        <img src="img/star-filled.png" alt="">
+                                    </div>
+                                    <div class="product__seller-star-box">
+                                        <img src="img/star-filled.png" alt="">
+                                    </div>
+                                    <div class="product__seller-star-box">
+                                        <img src="img/star-empty.png" alt="">
+                                    </div>
+                                    <div class="product__seller-star_empty"></div>
+                                    <div class="product__seller-reputation">
+                                        4.5
+                                    </div>
+                                </div>
+                                <div class="product__seller-title">Имя продавца</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__box">
+                            <div class="product__badge product__badge_new"></div>
+                            <div class="product__price">18,89 р/кг</div>
+                            <div class="product__price_old"></div>
+                            <div class="product__origin">
+                                <span class="product__origin-text"></span>
+                            </div>
+                            <div class="product__title-box">
+                                <div class="product__title">
+                                    Картофель молодой белый
+                                </div>
+                                <div class="product__volume">вес.</div>
+                            </div>
+                            <div class="product__pic-box">
+                                <img src="img/product/3.png" class="product__pic" alt="">
+                            </div>
+                            <a href="#" class="product__to-cart">В корзину</a>
+                            <div class="product__seller">
+                                <div class="product__seller-reputation-box">
+                                    <div class="product__seller-star-box">
+                                        <img src="img/star-filled.png" alt="">
+                                    </div>
+                                    <div class="product__seller-star-box">
+                                        <img src="img/star-filled.png" alt="">
+                                    </div>
+                                    <div class="product__seller-star-box">
+                                        <img src="img/star-filled.png" alt="">
+                                    </div>
+                                    <div class="product__seller-star-box">
+                                        <img src="img/star-empty.png" alt="">
+                                    </div>
+                                    <div class="product__seller-star_empty"></div>
+                                    <div class="product__seller-reputation">
+                                        4.5
+                                    </div>
+                                </div>
+                                <div class="product__seller-title">Имя продавца</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-products__unit main-products__unit_day">
+                <a href="#" class="main-products__arrow main-products__arrow_left"></a>
+                <a href="#" class="main-products__arrow main-products__arrow_right"></a>
+                <div class="main-products__title-box">
+                    <div class="main-products__title">Товары дня</div>
+                </div>
+                <div class="main__product-list">
+                    <div class="product">
+                        <div class="product__box">
+                            <div class="product__badge product__badge_kosher"></div>
+                            <div class="product__price">266,49 р.</div>
+                            <div class="product__price_old">288,49 р.</div>
+                            <div class="product__origin">
+                                <span class="product__origin-text">Россия, Псков, регион Изборск</span>
+                            </div>
+                            <div class="product__title-box">
+                                <div class="product__title">
+                                    Хинкали с говядиной и бараненной ТМ Риха
+                                </div>
+                                <div class="product__volume">800г</div>
+                            </div>
+                            <div class="product__pic-box">
+                                <img src="img/product/1.png" class="product__pic" alt="">
+                            </div>
+                            <div class="product__cart">
+                                <a href="#" class="product__cart-edit product__cart-edit_less">-</a>
+                                <a href="#" class="product__cart-edit product__cart-edit_more">+</a>
+                                <div class="product__cart-edit product__cart-edit_value">3</div>
+                            </div>
+                            <div class="product__seller">
+                                <div class="product__seller-reputation-box">
+                                    <div class="product__seller-star-box">
+                                        <img src="img/star-filled.png" alt="">
+                                    </div>
+                                    <div class="product__seller-star-box">
+                                        <img src="img/star-filled.png" alt="">
+                                    </div>
+                                    <div class="product__seller-star-box">
+                                        <img src="img/star-filled.png" alt="">
+                                    </div>
+                                    <div class="product__seller-star-box">
+                                        <img src="img/star-empty.png" alt="">
+                                    </div>
+                                    <div class="product__seller-star_empty"></div>
+                                    <div class="product__seller-reputation">
+                                        4.5
+                                    </div>
+                                </div>
+                                <div class="product__seller-title">Имя продавца</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__box">
+                            <div class="product__badge product__badge_religion"></div>
+                            <div class="product__price">17,78 р/кг</div>
+                            <div class="product__price_old"></div>
+                            <div class="product__origin">
+                                <span class="product__origin-text">Россия, Псков, регион Изборск</span>
+                            </div>
+                            <div class="product__title-box">
+                                <div class="product__title">
+                                    Свекла эконом
+                                </div>
+                                <div class="product__volume">вес.</div>
+                            </div>
+                            <div class="product__pic-box">
+                                <img src="img/product/2.png" class="product__pic" alt="">
+                            </div>
+                            <a href="#" class="product__to-cart">В корзину</a>
+                            <div class="product__seller">
+                                <div class="product__seller-reputation-box">
+                                    <div class="product__seller-star-box">
+                                        <img src="img/star-filled.png" alt="">
+                                    </div>
+                                    <div class="product__seller-star-box">
+                                        <img src="img/star-filled.png" alt="">
+                                    </div>
+                                    <div class="product__seller-star-box">
+                                        <img src="img/star-filled.png" alt="">
+                                    </div>
+                                    <div class="product__seller-star-box">
+                                        <img src="img/star-empty.png" alt="">
+                                    </div>
+                                    <div class="product__seller-star_empty"></div>
+                                    <div class="product__seller-reputation">
+                                        4.5
+                                    </div>
+                                </div>
+                                <div class="product__seller-title">Имя продавца</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__box">
+                            <div class="product__badge product__badge_child"></div>
+                            <div class="product__price">18,89 р/кг</div>
+                            <div class="product__price_old"></div>
+                            <div class="product__origin">
+                                <span class="product__origin-text"></span>
+                            </div>
+                            <div class="product__title-box">
+                                <div class="product__title">
+                                    Картофель молодой белый
+                                </div>
+                                <div class="product__volume">вес.</div>
+                            </div>
+                            <div class="product__pic-box">
+                                <img src="img/product/3.png" class="product__pic" alt="">
+                            </div>
+                            <a href="#" class="product__to-cart">В корзину</a>
+                            <div class="product__seller">
+                                <div class="product__seller-reputation-box">
+                                    <div class="product__seller-star-box">
+                                        <img src="img/star-filled.png" alt="">
+                                    </div>
+                                    <div class="product__seller-star-box">
+                                        <img src="img/star-filled.png" alt="">
+                                    </div>
+                                    <div class="product__seller-star-box">
+                                        <img src="img/star-filled.png" alt="">
+                                    </div>
+                                    <div class="product__seller-star-box">
+                                        <img src="img/star-empty.png" alt="">
+                                    </div>
+                                    <div class="product__seller-star_empty"></div>
+                                    <div class="product__seller-reputation">
+                                        4.5
+                                    </div>
+                                </div>
+                                <div class="product__seller-title">Имя продавца</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-products__unit main-products__unit_recommended">
+                <a href="#" class="main-products__arrow main-products__arrow_left"></a>
+                <a href="#" class="main-products__arrow main-products__arrow_right"></a>
+                <div class="main-products__title-box">
+                    <div class="main-products__title">Рекомендованные товары</div>
+                </div>
+                <div class="main__product-list">
+                    <div class="product">
+                        <div class="product__box">
+                            <div class="product__badge"></div>
+                            <div class="product__price">266,49 р.</div>
+                            <div class="product__price_old">288,49 р.</div>
+                            <div class="product__origin">
+                                <span class="product__origin-text">Россия, Псков, регион Изборск</span>
+                            </div>
+                            <div class="product__title-box">
+                                <div class="product__title">
+                                    Хинкали с говядиной и бараненной ТМ Риха
+                                </div>
+                                <div class="product__volume">800г</div>
+                            </div>
+                            <div class="product__pic-box">
+                                <img src="img/product/1.png" class="product__pic" alt="">
+                            </div>
+                            <div class="product__cart">
+                                <a href="#" class="product__cart-edit product__cart-edit_less">-</a>
+                                <a href="#" class="product__cart-edit product__cart-edit_more">+</a>
+                                <div class="product__cart-edit product__cart-edit_value">3</div>
+                            </div>
+                            <div class="product__seller">
+                                <div class="product__seller-reputation-box">
+                                    <div class="product__seller-star-box">
+                                        <img src="img/star-filled.png" alt="">
+                                    </div>
+                                    <div class="product__seller-star-box">
+                                        <img src="img/star-filled.png" alt="">
+                                    </div>
+                                    <div class="product__seller-star-box">
+                                        <img src="img/star-filled.png" alt="">
+                                    </div>
+                                    <div class="product__seller-star-box">
+                                        <img src="img/star-empty.png" alt="">
+                                    </div>
+                                    <div class="product__seller-star_empty"></div>
+                                    <div class="product__seller-reputation">
+                                        4.5
+                                    </div>
+                                </div>
+                                <div class="product__seller-title">Имя продавца</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__box">
+                            <div class="product__badge"></div>
+                            <div class="product__price">17,78 р/кг</div>
+                            <div class="product__price_old"></div>
+                            <div class="product__origin">
+                                <span class="product__origin-text">Россия, Псков, регион Изборск</span>
+                            </div>
+                            <div class="product__title-box">
+                                <div class="product__title">
+                                    Свекла эконом
+                                </div>
+                                <div class="product__volume">вес.</div>
+                            </div>
+                            <div class="product__pic-box">
+                                <img src="img/product/2.png" class="product__pic" alt="">
+                            </div>
+                            <a href="#" class="product__to-cart">В корзину</a>
+                            <div class="product__seller">
+                                <div class="product__seller-reputation-box">
+                                    <div class="product__seller-star-box">
+                                        <img src="img/star-filled.png" alt="">
+                                    </div>
+                                    <div class="product__seller-star-box">
+                                        <img src="img/star-filled.png" alt="">
+                                    </div>
+                                    <div class="product__seller-star-box">
+                                        <img src="img/star-filled.png" alt="">
+                                    </div>
+                                    <div class="product__seller-star-box">
+                                        <img src="img/star-empty.png" alt="">
+                                    </div>
+                                    <div class="product__seller-star_empty"></div>
+                                    <div class="product__seller-reputation">
+                                        4.5
+                                    </div>
+                                </div>
+                                <div class="product__seller-title">Имя продавца</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__box">
+                            <div class="product__badge"></div>
+                            <div class="product__price">18,89 р/кг</div>
+                            <div class="product__price_old"></div>
+                            <div class="product__origin">
+                                <span class="product__origin-text"></span>
+                            </div>
+                            <div class="product__title-box">
+                                <div class="product__title">
+                                    Картофель молодой белый
+                                </div>
+                                <div class="product__volume">вес.</div>
+                            </div>
+                            <div class="product__pic-box">
+                                <img src="img/product/3.png" class="product__pic" alt="">
+                            </div>
+                            <a href="#" class="product__to-cart">В корзину</a>
+                            <div class="product__seller">
+                                <div class="product__seller-reputation-box">
+                                    <div class="product__seller-star-box">
+                                        <img src="img/star-filled.png" alt="">
+                                    </div>
+                                    <div class="product__seller-star-box">
+                                        <img src="img/star-filled.png" alt="">
+                                    </div>
+                                    <div class="product__seller-star-box">
+                                        <img src="img/star-filled.png" alt="">
+                                    </div>
+                                    <div class="product__seller-star-box">
+                                        <img src="img/star-empty.png" alt="">
+                                    </div>
+                                    <div class="product__seller-star_empty"></div>
+                                    <div class="product__seller-reputation">
+                                        4.5
+                                    </div>
+                                </div>
+                                <div class="product__seller-title">Имя продавца</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="recent">
+        <div class="recent__products-box">
+            <div class="recent__title">Вы недавно смотрели</div>
+            <div class="recent__arrow recent__arrow_left"></div>
+            <div class="recent__arrow recent__arrow_right"></div>
+            <div class="recent__products-view">
+                <div class="recent-product">
+                    <div class="recent-product__price-box">
+                        <div class="recent-product__price-title">Цена за шт</div>
+                        <div class="recent-product__price">30,49 р.</div>
+                    </div>
+                    <div class="recent-product__title">Йогурт ТМ Чудо</div>
+                    <div class="recent-product__volume">100г</div>
+                    <div class="recent-product__pic-box">
+                        <img src="img/product/4.png" alt="" class="recent-product__pic">
+                    </div>
+                    <a href="#" class="recent-product__to-cart">
+                        В корзину
+                    </a>
+                </div>
+                <div class="recent-product">
+                    <div class="recent-product__price-box">
+                        <div class="recent-product__price-title">Цена за шт</div>
+                        <div class="recent-product__price">30,49 р.</div>
+                    </div>
+                    <div class="recent-product__title">Йогурт ТМ Чудо</div>
+                    <div class="recent-product__volume">100г</div>
+                    <div class="recent-product__pic-box">
+                        <img src="img/product/4.png" alt="" class="recent-product__pic">
+                    </div>
+                    <a href="#" class="recent-product__to-cart">
+                        В корзину
+                    </a>
+                </div>
+                <div class="recent-product">
+                    <div class="recent-product__price-box">
+                        <div class="recent-product__price-title">Цена за шт</div>
+                        <div class="recent-product__price">30,49 р.</div>
+                    </div>
+                    <div class="recent-product__title">Йогурт ТМ Чудо</div>
+                    <div class="recent-product__volume">100г</div>
+                    <div class="recent-product__pic-box">
+                        <img src="img/product/4.png" alt="" class="recent-product__pic">
+                    </div>
+                    <a href="#" class="recent-product__to-cart">
+                        В корзину
+                    </a>
+                </div>
+                <div class="recent-product">
+                    <div class="recent-product__price-box">
+                        <div class="recent-product__price-title">Цена за шт</div>
+                        <div class="recent-product__price">30,49 р.</div>
+                    </div>
+                    <div class="recent-product__title">Йогурт ТМ Чудо</div>
+                    <div class="recent-product__volume">100г</div>
+                    <div class="recent-product__pic-box">
+                        <img src="img/product/4.png" alt="" class="recent-product__pic">
+                    </div>
+                    <a href="#" class="recent-product__to-cart">
+                        В корзину
+                    </a>
+                </div>
+                <div class="recent-product">
+                    <div class="recent-product__price-box">
+                        <div class="recent-product__price-title">Цена за шт</div>
+                        <div class="recent-product__price">30,49 р.</div>
+                    </div>
+                    <div class="recent-product__title">Йогурт ТМ Чудо</div>
+                    <div class="recent-product__volume">100г</div>
+                    <div class="recent-product__pic-box">
+                        <img src="img/product/4.png" alt="" class="recent-product__pic">
+                    </div>
+                    <a href="#" class="recent-product__to-cart">
+                        В корзину
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="banners">
+    <div class="banner">
+        <img src="img/banners/delivery.png" alt="" class="banner__pic">
+    </div>
+    <div class="banner">
+        <img src="img/banners/refund.png" alt="" class="banner__pic">
+    </div>
+    <div class="banner">
+        <img src="img/banners/quality.png" alt="" class="banner__pic">
+    </div>
+</div>
+<footer class="footer"></footer>
+<script>
+    $(function () {
+        $(".footer").load("footer.html");
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html style="background-color: #717070">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/lib/jquery/3.1.1.min.js"></script>
+    <title>Recipes</title>
+</head>
+<body>
+<div class="popup-product">
+    <div class="popup-close"></div>
+    <div class="popup-product__category-box">
+        <span class="popup-product__category-origin">
+            <img src="img/flags/ru.png" alt="">
+        </span>
+        <span class="popup-product__category-main">Овощи, фрукты,, грибы, ягоды</span>
+        <span class="popup-product__category-splitter">/</span>
+        <span class="popup-product__category-sub">Овощи</span>
+    </div>
+    <div class="popup-product__origin">Россия Краснодар</div>
+    <div class="popup-product__title">Капуста краснокочанная</div>
+    <div class="popup-product__volume">вес.</div>
+    <div class="popup-product__box">
+        <div class="popup-product__pic-box">
+            <img src="img/product/5.png" alt="" class="popup-product__pic">
+        </div>
+        <div class="popup-product__price-box">
+            <div class="popup-product__price">266,49 р.</div>
+            <div class="popup-product__price-4-one-title">Цена за 1 шт</div>
+            <div class="popup-product__price-4-one">(182,45/ 1кг)</div>
+            <div class="popup-product__cart">
+                <a href="#" class="popup-product__cart-edit popup-product__cart-edit_less">-</a>
+                <a href="#" class="popup-product__cart-edit popup-product__cart-edit_more">+</a>
+                <div class="popup-product__cart-edit popup-product__cart-edit_value">3</div>
+            </div>
+            <!--<div class="popup-product__to-cart">-->
+                <!--В корзину-->
+            <!--</div>-->
+            <div class="popup-product__error-box">
+                <a href="#" class="popup-product__error">
+                    Нашли ошибку?
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="popup-product__tabs">
+        <div class="popup-product__tabs-box">
+            <div class="popup-product__tab-name">Информация</div>
+            <div class="popup-product__tab-name popup-product__tab-name_active">Производитель</div>
+            <div class="popup-product__tab-name">Похожие товары</div>
+            <div class="popup-product__tab-name">Комментарий</div>
+        </div>
+        <div class="popup-product__tab popup-product__tab_info"></div>
+        <div class="popup-product__tab popup-product__tab_seller">
+            <div class="popup-product__seller">
+                <span class="popup-product__seller-title">Имя продавца:</span>
+                <span class="popup-product__seller-name">Иван Васильевич</span>
+            </div>
+            <div class="popup-product__seller-rate-box">
+                <span class="popup-product__seller-rate-title">Рейтинг:</span>
+                <span class="popup-product__stars">
+                    <img src="img/star-filled.png" alt="" class="popup-product__star">
+                    <img src="img/star-filled.png" alt="" class="popup-product__star">
+                    <img src="img/star-filled.png" alt="" class="popup-product__star">
+                    <img src="img/star-filled.png" alt="" class="popup-product__star">
+                    <img src="img/star-empty.png" alt="" class="popup-product__star">
+                </span>
+                <span class="popup-product__seller-rate">4.5</span>
+            </div>
+        </div>
+        <div class="popup-product__tab popup-product__tab_similar"></div>
+        <div class="popup-product__tab popup-product__tab_comments"></div>
+    </div>
+</div>
+<div style="margin-top: 50px">
+    <div class="popup-confirm">
+        <div class="popup-close"></div>
+        <div class="popup-confirm__title">Подтвеждение заказа</div>
+        <div class="popup-confirm__options">
+            <div class="popup-confirm__option">
+                <div class="popup-confirm__option_name">
+                    Общая сумма покупки:
+                </div>
+                <div class="popup-confirm__option_value">
+                    6455,92 р.
+                </div>
+            </div>
+            <div class="popup-confirm__option">
+                <div class="popup-confirm__option_name">
+                    Адрес доставки:
+                </div>
+                <div class="popup-confirm__option_value">
+                    ул. Ленина 25, кв. 16
+                </div>
+            </div>
+            <div class="popup-confirm__option">
+                <div class="popup-confirm__option_name">
+                    Промокод:
+                </div>
+                <div class="popup-confirm__option_value">
+                    754511AD44
+                </div>
+            </div>
+        </div>
+        <div class="popup-confirm__note-title">
+            Примечание:
+        </div>
+        <div class="popup-confirm__note">
+            Благодаря Вашему заказу сервис «Доставка с рынка» перечислит 30р в благотворительный фонд сума пожертвования автоматически рассчитывается по формуле: 1% от заказа без доставки
+        </div>
+        <div class="popup-confirm__hr"></div>
+        <div class="popup-confirm__button-box">
+            <div class="popup-confirm__button">Подтвердить</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

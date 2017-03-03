@@ -1,0 +1,76 @@
+a {
+  text-decoration: none;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+body{
+  min-width: 1440px;
+}
+
+.wrapper{
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.wrapper:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.page-sidebar{
+  width: 391px;
+  padding: 43px 0;
+  float: left;
+}
+
+.page-sidebar__title{
+  margin-left: 69px;
+  font-size: 24px;
+  font-family: Tahoma, Helvetica, sans-serif;
+  color: #20201f;
+}
+
+.page-sidebar__list{
+  padding-top: 25px;
+}
+
+.page-sidebar__element{
+  display: block;
+  margin-top: 2px;
+  height: 46px;
+  color: #20201f;
+  font-size: 16px;
+  font-family: Tahoma, Helvetica, sans-serif;
+  line-height: 46px;
+  padding: 0 10px 0 97px;
+  background-color: #f9f9f9;
+  -webkit-transform: translateZ(0);
+  transition: color .5s, background-color .5s;
+}
+
+.page-sidebar__element_active, .page-sidebar__element:hover{
+  color: #38ac6a;
+  background-color: #e8f4e8;
+}
+
+@import "header";
+@import "footer";
+@import "main";
+@import "slider";
+@import "product";
+@import "recipes";
+@import "recipe";
+@import "cart";
+@import "popup";
+@import "sellers";
+@import "about";

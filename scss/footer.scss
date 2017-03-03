@@ -1,0 +1,42 @@
+.footer{
+  background-color: #f2f2f2;
+  padding: 93px 0 38px;
+}
+
+.footer__inner{
+  background-color: #38ac6a;
+  height: 84px;
+}
+
+.footer__wrapper{
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.footer__social-box{
+  width: 166px;
+  margin: 0 auto;
+  padding-top: 24px;
+}
+
+.footer__social{
+  width: 31px;
+  height: 31px;
+  float: left;
+  display: block;
+  background: url("../img/footer-socials.png") no-repeat;
+  margin-right: 14px;
+}
+
+.footer__social_vk{
+  background-position: -32px 0;
+}
+
+.footer__social_google{
+  background-position: -64px 0;
+}
+
+.footer__social_facebook{
+  background-position: -96px 0;
+  margin-right: 0;
+}

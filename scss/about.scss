@@ -1,0 +1,108 @@
+.about{
+  margin-left: 409px;
+  padding: 100px 0 0;
+  width: 966px;
+
+  &:after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+.about-market__block{
+  margin-top: 20px;
+
+  &:first-child{
+    margin-top: 0;
+  }
+}
+
+.about-market__block-title{
+  font-size: 20px;
+  color: #20201f;
+  font-family: Tahoma, Helvetica, sans-serif;
+}
+
+.about-market__block-pics{
+  text-align: center;
+  margin-top: 40px;
+}
+
+.about-market__block-pic{
+  width: 170px;
+  height: 170px;
+  margin-left: 25px;
+
+  &:first-child{
+    margin-left: 0;
+  }
+}
+
+.about-market__block-description{
+  margin-top: 40px;
+  font-size: 15px;
+  color: #939290;
+  font-family: Tahoma, Helvetica, sans-serif;
+  padding-bottom: 27px;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.about-service__title{
+  font-size: 20px;
+  color: #20201f;
+  font-family: Tahoma, Helvetica, sans-serif;
+}
+
+.about-service__list{
+  width: 840px;
+  margin: 40px auto 0;
+
+  &:after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+.about-service__stage{
+  width: 210px;
+  height: 295px;
+  float: left;
+}
+
+.about-service__stage-pic-box{
+  text-align: center;
+}
+
+.about-service__stage-pic{
+  width: 170px;
+  height: 170px;
+}
+
+.about-service__stage-title{
+  margin-top: 5px;
+  font-size: 20px;
+  color: #20201f;
+  font-family: Tahoma, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.about-service__stage-description{
+  font-size: 15px;
+  color: #939290;
+  font-family: Tahoma, Helvetica, sans-serif;
+  max-height: 55px;
+  overflow: hidden;
+  text-align: center;
+  width: 190px;
+  margin: 5px auto 0;
+}
+
+.about-service__description{
+  margin-top: 25px;
+  font-size: 15px;
+  color: #939290;
+  font-family: Tahoma, Helvetica, sans-serif;
+  padding-bottom: 100px;
+}
