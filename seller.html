@@ -1,83 +1,165 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8"/>
-    <link rel="stylesheet" href="css/normalize.css"/>
-    <link rel="stylesheet" href="css/style.css"/>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <script src="js/lib/jquery/3.1.1.min.js"></script>
-    <title>Cart</title>
+    <title>Title</title>
 </head>
 <body>
 <header class="header"></header>
 <script>
-    $(function () {
+    $(function(){
         $(".header").load("header.html");
     });
 </script>
-<div class="cart-page">
-    <div class="wrapper">
-        <div class="cart-details">
-            <div class="cart-details__pay-type-box">
-                <div class="cart-details__pay-type-title">Тип оплаты</div>
-                <div class="cart-details__pay-type">Наличными при получении</div>
-            </div>
-            <div class="cart-details__add-promo-box">
-                <a href="#" class="cart-details__add-promo">
-                   + Добавить промо код
-                </a>
-            </div>
-            <div class="cart-details__delivery-info">
-                <div class="cart-details__address-box">
-                    <div class="cart-details__address-title">Адрес доставки</div>
-                    <div class="cart-details__address">Ул Ленина 32</div>
+<div class="wrapper">
+    <div class="seller">
+        <div class="seller__title-box">
+            <div class="seller__title">Страница продавца</div>
+        </div>
+        <div class="seller__info">
+            <div class="seller__info-left">
+                <div class="seller__pic-box">
+                    <img src="img/sellers/1.png" alt="" class="seller__pic">
                 </div>
-                <div class="cart-details__time-box">
-                    <div class="cart-details__time-title">Время доставки</div>
-                    <div class="cart-details__time">12:00</div>
+                <div class="seller__rate-box">
+                    <img src="img/star-filled_big.png" alt="" class="seller__star">
+                    <img src="img/star-filled_big.png" alt="" class="seller__star">
+                    <img src="img/star-filled_big.png" alt="" class="seller__star">
+                    <img src="img/star-filled_big.png" alt="" class="seller__star">
+                    <img src="img/star-empty_big.png" alt="" class="seller__star">
+                    <span class="seller__rate">4.5</span>
+                </div>
+                <div class="seller__since">3 года на сайте</div>
+            </div>
+            <div class="seller__info-right">
+                <div class="seller__name">ИП Иванов</div>
+                <div class="seller__domain">
+                    Поставщик экологического<br>
+                    чистого зерна и муки из него
+                </div>
+                <div class="seller__description-title">Описание</div>
+                <div class="seller__description">
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                 </div>
             </div>
-            <div class="cart-details__right">
-                <div class="cart-details__submit-box">
-                    <div class="cart-details__sum-box">
-                        <div class="cart-details__sum">6455,92 р.</div>
-                        <div class="cart-details__sum-title">С учетом доставки</div>
+        </div>
+        <div class="seller__gallery-box">
+            <div class="seller__arrow seller__arrow_left"></div>
+            <div class="seller__arrow seller__arrow_right"></div>
+            <div class="seller__gallery">
+                <img src="img/seller/1.png" alt="" class="seller__gallery-pic">
+                <img src="img/seller/2.png" alt="" class="seller__gallery-pic">
+                <img src="img/seller/3.png" alt="" class="seller__gallery-pic">
+                <img src="img/seller/4.png" alt="" class="seller__gallery-pic">
+                <img src="img/seller/5.png" alt="" class="seller__gallery-pic">
+                <img src="img/seller/6.png" alt="" class="seller__gallery-pic">
+            </div>
+        </div>
+        <div class="seller__tabs-box">
+            <div class="seller__tabs">
+                <div class="seller__tab seller__tab_active">Отзывы</div>
+                <div class="seller__tab">Каталог товара</div>
+            </div>
+            <div class="seller__tab-box">
+                <div class="seller__post-link-box">
+                    <a href="#" class="seller__post-link">Написать отзыв</a>
+                </div>
+                <div class="comments seller__comments">
+                    <div class="comments__post">
+                        <div class="comments__title">
+                            <span class="comments__author">
+                                Валерий
+                            </span>
+                            <span class="comments__stars">
+                                <img src="img/star-filled.png" alt="" class="comments__star">
+                                <img src="img/star-filled.png" alt="" class="comments__star">
+                                <img src="img/star-filled.png" alt="" class="comments__star">
+                                <img src="img/star-filled.png" alt="" class="comments__star">
+                                <img src="img/star-empty.png" alt="" class="comments__star">
+                            </span>
+                        </div>
+                        <div class="comments__comment">
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        </div>
+                        <div class="comments__reply-box">
+                            <a href="#" class="comments__reply">Ответить</a>
+                        </div>
                     </div>
-                    <a href="#" class="cart-details__submit">Оформить</a>
+                    <div class="comments__post">
+                        <div class="comments__title">
+                            <span class="comments__author">
+                                Валерий
+                            </span>
+                            <span class="comments__stars">
+                                <img src="img/star-filled.png" alt="" class="comments__star">
+                                <img src="img/star-filled.png" alt="" class="comments__star">
+                                <img src="img/star-filled.png" alt="" class="comments__star">
+                                <img src="img/star-filled.png" alt="" class="comments__star">
+                                <img src="img/star-empty.png" alt="" class="comments__star">
+                            </span>
+                        </div>
+                        <div class="comments__comment">
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        </div>
+                        <div class="comments__reply-box">
+                            <a href="#" class="comments__reply">Ответить</a>
+                        </div>
+                    </div>
+                    <div class="comments__post">
+                        <div class="comments__title">
+                            <span class="comments__author">
+                                Валерий
+                            </span>
+                            <span class="comments__stars">
+                                <img src="img/star-filled.png" alt="" class="comments__star">
+                                <img src="img/star-filled.png" alt="" class="comments__star">
+                                <img src="img/star-filled.png" alt="" class="comments__star">
+                                <img src="img/star-filled.png" alt="" class="comments__star">
+                                <img src="img/star-empty.png" alt="" class="comments__star">
+                            </span>
+                        </div>
+                        <div class="comments__comment">
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        </div>
+                        <div class="comments__reply-box">
+                            <a href="#" class="comments__reply">Ответить</a>
+                        </div>
+                    </div>
+                    <div class="comments__form">
+                        <div class="comments__form-info">
+                            <div class="comments__form-name-box">
+                                <input type="text" class="comments__form-name" placeholder="Имя">
+                            </div>
+                            <div class="comments__form-rate-box">
+                                <span class="comments__form-rate-title">Оценка:</span>
+                                <span class="comments__form-stars">
+                                    <span class="comments__form-star comments__form-star_filled"></span>
+                                    <span class="comments__form-star comments__form-star_filled"></span>
+                                    <span class="comments__form-star comments__form-star_filled"></span>
+                                    <span class="comments__form-star comments__form-star_filled"></span>
+                                    <span class="comments__form-star"></span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="comments__form-textarea-box">
+                            <textarea name="" id="" cols="30" rows="10" class="comments__form-textarea" placeholder="Оставьте свой комментарий"></textarea>
+                        </div>
+                        <div class="comments__form-submit-box">
+                            <div class="comments__form-submit">Оставить отзыв</div>
+                        </div>
+                    </div>
                 </div>
-                <div class="cart-details__additional">
-                    <a href="#" class="cart-details__refund">Политика возврата</a>
-                    <a href="#" class="cart-details__replace">Замена товара</a>
-                </div>
             </div>
-        </div>
-    </div>
-    <div class="cart-summary">
-        <div class="wrapper cart-summary__wrapper">
-            <div class="cart-summary__elem cart-summary__count-box">
-                <img src="img/cart/count.png" alt="" class="cart-summary__pic">
-                <span class="cart-summary__count">8 Товаров</span>
+            <div class="seller__tabs">
+                <div class="seller__tab">Отзывы</div>
+                <div class="seller__tab seller__tab_active">Каталог товара</div>
             </div>
-            <div class="cart-summary__elem cart-summary__weight-box">
-                <img src="img/cart/weight.png" alt="" class="cart-summary__pic">
-                <span class="cart-summary__weight">995г</span>
-            </div>
-            <a href="#" class="cart-summary__elem cart-summary__clear-box">
-                <img src="img/cart/clear.png" alt="" class="cart-summary__pic">
-                <span class="cart-summary__clear">Очистить козину</span>
-            </a>
-        </div>
-    </div>
-    <div class="cart-list">
-        <div class="wrapper">
-            <div class="cart-list__title-box">
-                <div class="cart-list__title">Корзина</div>
-                <div class="cart-list__view cart-list__view_list"></div>
-                <div class="cart-list__view cart-list__view_icon"></div>
-            </div>
-            <div class="cart-list__box">
+            <div class="seller__tab-box">
                 <div class="product">
                     <div class="product__box">
-                        <div class="product__badge product__badge_discard"></div>
                         <div class="product__price">266,49 р.</div>
                         <div class="product__price_old">288,49 р.</div>
                         <div class="product__origin">
@@ -102,7 +184,6 @@
                 </div>
                 <div class="product">
                     <div class="product__box">
-                        <div class="product__badge product__badge_discard"></div>
                         <div class="product__price">266,49 р.</div>
                         <div class="product__price_old">288,49 р.</div>
                         <div class="product__origin">
@@ -147,7 +228,6 @@
                 </div>
                 <div class="product">
                     <div class="product__box">
-                        <div class="product__badge product__badge_discard"></div>
                         <div class="product__price">266,49 р.</div>
                         <div class="product__price_old">288,49 р.</div>
                         <div class="product__origin">
@@ -192,7 +272,6 @@
                 </div>
                 <div class="product">
                     <div class="product__box">
-                        <div class="product__badge product__badge_discard"></div>
                         <div class="product__price">266,49 р.</div>
                         <div class="product__price_old">288,49 р.</div>
                         <div class="product__origin">
@@ -237,7 +316,6 @@
                 </div>
                 <div class="product">
                     <div class="product__box">
-                        <div class="product__badge product__badge_discard"></div>
                         <div class="product__price">266,49 р.</div>
                         <div class="product__price_old">288,49 р.</div>
                         <div class="product__origin">
@@ -279,14 +357,6 @@
                             <div class="product__seller-title">Имя продавца</div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="cart-list__line"></div>
-            <div class="cart-list__summary">
-                <a href="#" class="cart-list__submit">Оформить</a>
-                <div class="cart-list__sum-box">
-                    <div class="cart-list__sum">6455,92 р.</div>
-                    <div class="cart-list__sum-title">С учетом доставки</div>
                 </div>
             </div>
         </div>
@@ -294,7 +364,7 @@
 </div>
 <footer class="footer"></footer>
 <script>
-    $(function () {
+    $(function(){
         $(".footer").load("footer.html");
     });
 </script>

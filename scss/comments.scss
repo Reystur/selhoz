@@ -1,0 +1,130 @@
+.comments__post{
+  margin-top: 24px;
+
+  &:first-child{
+    margin-top: 0;
+  }
+}
+
+.comments__author{
+  font-size: 20px;
+  color: #20201f;
+  font-family: Tahoma, Helvetica, sans-serif;
+}
+
+.comments__stars{
+  margin-left: 5px;
+}
+
+.comments__star{
+  width: 13px;
+  height: 12px;
+}
+
+.comments__comment{
+  margin-top: 9px;
+  font-size: 15px;
+  color: #20201f;
+  font-family: Tahoma, Helvetica, sans-serif;
+}
+
+.comments__reply-box{
+  margin-top: 14px;
+}
+
+.comments__reply{
+  color: #64c3c2;
+  text-decoration: underline;
+  background: url("../img/comments-reply.png") no-repeat left center;
+  padding-left: 20px;
+}
+
+.comments__form{
+  margin-top: 40px;
+}
+
+.comments__form-info{
+  height: 30px;
+}
+
+.comments__form-name-box{
+  float: left;
+  width: 170px;
+}
+
+.comments__form-name{
+  display: block;
+  width: 100%;
+  font-size: 15px;
+  line-height: 28px;
+  color: #20201f;
+  font-family: Tahoma, Helvetica, sans-serif;
+  border: 1px solid #e4e4e4;
+  padding: 0 7px;
+  box-sizing: border-box;
+}
+
+.comments__form-rate-box{
+  display: block;
+  float: left;
+  font-size: 15px;
+  height: 28px;
+  padding: 1px 0;
+  margin-left: 20px;
+}
+
+.comments__form-rate-title{
+  font-size: 15px;
+  line-height: 28px;
+}
+
+.comments__form-stars{
+  margin-left: 5px;
+  cursor: default;
+}
+
+.comments__form-star{
+  display: inline-block;
+  cursor: pointer;
+  width: 13px;
+  height: 12px;
+  background: url("../img/star-empty.png") no-repeat;
+}
+
+.comments__form-star_filled{
+  width: 13px;
+  height: 12px;
+  background: url("../img/star-filled.png") no-repeat;
+}
+
+.comments__form-textarea-box{
+  margin-top: 28px;
+}
+
+.comments__form-textarea{
+  width: 100%;
+  padding: 4px 7px;
+  box-sizing: border-box;
+  counter-reset: none;
+  border: 1px solid #6aaa6d;
+  resize: none;
+  font-size: 15px;
+  color: #20201f;
+  font-family: Tahoma, Helvetica, sans-serif;
+}
+
+.comments__form-submit-box{
+  margin-top: 30px;
+  text-align: right;
+}
+
+.comments__form-submit{
+  display: inline-block;
+  font-size: 20px;
+  line-height: 42px;
+  font-family: Tahoma, Helvetica, sans-serif;
+  color: #6aaa6d;
+  border: 1px solid #6aaa6d;
+  padding: 0 60px;
+  cursor: pointer;
+}
