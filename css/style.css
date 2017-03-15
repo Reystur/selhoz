@@ -289,6 +289,175 @@ body {
   margin-right: 0;
 }
 
+.checkbox, .radio {
+  opacity: 0;
+  position: absolute;
+}
+
+.checkbox, .checkbox-label, .radio, .radio-label {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.checkbox + .checkbox-label:before, .radio + .radio-label:before {
+  background: #fff;
+  display: inline-block;
+  content: '';
+  width: 19px;
+  height: 19px;
+  box-sizing: border-box;
+  border: solid 3px #6aaa6d;
+  position: relative;
+  margin-right: 5px;
+  top: 2px;
+}
+
+.checkbox_small + .checkbox-label_small:before, .radio_small + .radio-label_small:before {
+  width: 13px;
+  height: 13px;
+  border: solid 2px #6aaa6d;
+  margin-right: 5px;
+  top: 1px;
+}
+
+.checkbox_alert + .checkbox-label_alert:before, .radio_alert + .radio-label_alert:before {
+  border-color: #e45304;
+}
+
+.checkbox-label, .radio-label {
+  position: relative;
+  color: #20201f;
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.checkbox-label_small, .radio-label_small {
+  font-size: 15px;
+  line-height: 17px;
+}
+
+.checkbox-label_alert, .radio-label_alert {
+  color: #e45304;
+}
+
+.checkbox:checked + .checkbox-label:after, .radio:checked + .radio-label:after {
+  display: block;
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  background-color: #6aaa6d;
+  top: 7px;
+  left: 5px;
+}
+
+.checkbox_small:checked + .checkbox-label_small:after, .radio_small:checked + .radio-label_small:after {
+  width: 5px;
+  height: 5px;
+  top: 6px;
+  left: 4px;
+}
+
+.checkbox_alert:checked + .checkbox-label_alert:after, .radio_alert:checked + .radio-label_alert:after {
+  background-color: #e45304;
+}
+
+.label-shutted {
+  color: #787877;
+  font-size: 15px;
+}
+
+.label-attention {
+  color: #6aaa6d;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0 23px;
+  box-sizing: border-box;
+  font-family: Tahoma, Helvetica, sans-serif;
+  color: #6aaa6d;
+  background-color: #fff;
+  border: solid 1px #489247;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 42px;
+}
+
+.btn_block {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.select {
+  display: block;
+  width: 100%;
+  height: 30px;
+  box-sizing: border-box;
+  border-bottom: solid 1px #489247;
+  cursor: pointer;
+  position: relative;
+}
+.select:after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 3px;
+  top: 8px;
+  width: 7px;
+  height: 7px;
+  border-bottom: 3px solid #489247;
+  border-right: 3px solid #489247;
+  transform: rotate(45deg);
+}
+
+.select_active .select__options {
+  display: block;
+}
+
+.select__selected {
+  padding: 5px;
+  margin-right: 20px;
+  font-size: 15px;
+  color: #20201f;
+  font-family: Tahoma, Helvetica, sans-serif;
+}
+
+.select__options {
+  display: none;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #fff;
+}
+
+.select__option {
+  padding: 8px 5px;
+  font-size: 15px;
+  line-height: 17px;
+  color: #20201f;
+  font-family: Tahoma, Helvetica, sans-serif;
+}
+.select__option:hover {
+  color: #489247;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px;
+  font-size: 15px;
+  line-height: 18px;
+  color: #20201f;
+  font-family: Tahoma, Helvetica, sans-serif;
+  border-bottom: solid 1px #6aaa6d;
+  outline: none;
+}
+
 .main-sidebar {
   width: 393px;
   padding: 19px 0;
@@ -2076,6 +2245,184 @@ body {
   border: 1px solid #6aaa6d;
   padding: 0 60px;
   cursor: pointer;
+}
+
+.deliver {
+  padding-bottom: 50px;
+}
+
+.deliver__title-box {
+  margin: 20px 70px 0;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #489247;
+}
+
+.deliver__title {
+  font-size: 25px;
+  color: #20201f;
+  font-family: Tahoma, Helvetica, sans-serif;
+}
+
+.deliver__columns {
+  margin: 40px 73px 0;
+  border: 1px solid lightgrey;
+}
+
+.deliver__table {
+  width: 100%;
+}
+
+.deliver__column {
+  padding: 24px;
+  border-left: 1px solid lightgrey;
+  width: 33.3%;
+  vertical-align: top;
+}
+.deliver__column:first-child {
+  border-left: none;
+}
+
+.deliver__sub-title {
+  font-size: 15px;
+  color: #787877;
+  font-family: Tahoma, Helvetica, sans-serif;
+  margin: 10px 0;
+}
+
+.deliver__method-box {
+  height: 30px;
+}
+
+.deliver__method-option {
+  width: 155px;
+  float: left;
+}
+
+.deliver__hr {
+  height: 1px;
+  width: 100%;
+  background-color: lightgrey;
+  margin: 20px 0;
+}
+
+.deliver__address-box {
+  margin: 30px 0 40px;
+}
+
+.deliver__time-box {
+  margin: 15px 0;
+}
+.deliver__time-box:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.deliver__time-option {
+  float: left;
+  width: 180px;
+  margin-right: 22px;
+}
+
+.deliver__time-option_hour {
+  margin-right: 0;
+  width: 130px;
+}
+
+.deliver__time-earlier-box {
+  margin: 5px 0;
+}
+
+.deliver__pay-method {
+  margin-top: 15px;
+}
+
+.deliver__pay-method_cash-box {
+  margin: 5px 0 0 30px;
+}
+
+.deliver__change-box:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.deliver__change-radio {
+  padding: 5px 0;
+  margin-right: 15px;
+  float: left;
+}
+
+.deliver__change-input {
+  float: left;
+  width: 70px;
+}
+
+.deliver__replace-title {
+  font-size: 20px;
+  color: #20201f;
+  font-family: Tahoma, Helvetica, sans-serif;
+}
+
+.deliver__replace {
+  margin-top: 26px;
+}
+
+.deliver__recall-fail-title {
+  margin: 10px 27px 0;
+  font-size: 15px;
+  color: #787877;
+  font-family: Tahoma, Helvetica, sans-serif;
+}
+
+.deliver_recall-fail {
+  margin: 2px 27px;
+}
+
+.deliver__sum {
+  margin-top: 20px;
+}
+.deliver__sum:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.deliver__sum-option {
+  float: left;
+  font-size: 15px;
+  padding-top: 5px;
+  color: #787877;
+  font-family: Tahoma, Helvetica, sans-serif;
+}
+
+.deliver__sum-value {
+  float: right;
+  font-size: 20px;
+  color: #20201f;
+  font-family: Tahoma, Helvetica, sans-serif;
+}
+
+.deliver__sum-value_input {
+  width: 140px;
+}
+
+.deliver__phone-title {
+  margin-top: 25px;
+  color: #787877;
+  font-family: Tahoma, Helvetica, sans-serif;
+}
+
+.deliver__phone-box {
+  margin-top: 20px;
+}
+
+.deliver__phone {
+  width: 150px;
+}
+
+.deliver__confirm {
+  margin-top: 90px;
 }
 
 .about {
