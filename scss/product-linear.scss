@@ -1,0 +1,105 @@
+.product-linear__table{
+  width: 100%;
+}
+
+.product-linear{
+  padding-top: 10px;
+
+  &:first-child{
+    padding-top: 0;
+  }
+}
+
+.product-linear__space{
+  height: 10px;
+}
+
+.product-linear__pic-box{
+  width: 8%;
+  text-align: center;
+  vertical-align: middle;
+  box-sizing: border-box;
+  padding: 10px 0 10px 25px;
+  border-top: 1px solid #f3f3f3;
+  border-bottom: 1px solid #f3f3f3;
+  border-left: 1px solid #f3f3f3;
+}
+
+.product-linear__pic{
+  max-width: 90%;
+  max-height: 50px;
+}
+
+.product-linear__title{
+  width: 22%;
+  font-size: 20px;
+  color: #20201f;
+  font-family: Tahoma, Helvetica, sans-serif;
+  vertical-align: middle;
+  box-sizing: border-box;
+  padding: 10px 0 10px 25px;
+  border-top: 1px solid #f3f3f3;
+  border-bottom: 1px solid #f3f3f3;
+}
+
+.product-linear__volume{
+  width: 6%;
+  font-size: 20px;
+  color: #787877;
+  font-family: Tahoma, Helvetica, sans-serif;
+  vertical-align: middle;
+  box-sizing: border-box;
+  padding: 10px 0 10px 25px;
+  border-top: 1px solid #f3f3f3;
+  border-bottom: 1px solid #f3f3f3;
+}
+
+.product-linear__origin{
+  width: 22%;
+  font-size: 20px;
+  color: #939290;
+  font-family: Tahoma, Helvetica, sans-serif;
+  vertical-align: middle;
+  box-sizing: border-box;
+  padding: 10px 0 10px 25px;
+  border-top: 1px solid #f3f3f3;
+  border-bottom: 1px solid #f3f3f3;
+}
+
+.product-linear__seller{
+  width: 13%;
+  font-size: 20px;
+  vertical-align: middle;
+  box-sizing: border-box;
+  padding: 10px 0 10px 25px;
+  border-top: 1px solid #f3f3f3;
+  border-bottom: 1px solid #f3f3f3;
+  color: #20201f;
+  font-family: Tahoma, Helvetica, sans-serif;
+}
+
+.product-linear__rate-box{
+  width: 10%;
+  font-size: 15px;
+  vertical-align: middle;
+  box-sizing: border-box;
+  padding: 10px 0 10px 25px;
+  border-top: 1px solid #f3f3f3;
+  border-bottom: 1px solid #f3f3f3;
+  color: #f5d130;
+  font-family: Tahoma, Helvetica, sans-serif;
+}
+
+.product-linear__price{
+  text-align: right;
+  width: 13%;
+  padding: 10px 25px;
+  font-size: 25px;
+  vertical-align: middle;
+  box-sizing: border-box;
+  border-top: 1px solid #f3f3f3;
+  border-bottom: 1px solid #f3f3f3;
+  border-right: 1px solid #f3f3f3;
+  color: #20201f;
+  font-family: Tahoma, Helvetica, sans-serif;
+}

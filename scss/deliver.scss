@@ -1,10 +1,10 @@
 .deliver{
-  padding-bottom: 50px;
+  padding: 20px 0 50px;
 }
 
 .deliver__title-box{
   margin: 20px 70px 0;
-  padding-bottom: 5px;
+  padding-bottom: 13px;
   border-bottom: 1px solid #489247;
 }
 
@@ -15,8 +15,8 @@
 }
 
 .deliver__columns{
-  margin: 40px 73px 0;
-  border: 1px solid lightgrey;
+  margin: 50px 73px 0;
+  border: 1px solid #f3f3f3;
 }
 
 .deliver__table{
@@ -25,7 +25,7 @@
 
 .deliver__column{
   padding: 24px;
-  border-left: 1px solid lightgrey;
+  border-left: 1px solid #f3f3f3;
   width: 33.3%;
   vertical-align: top;
   
@@ -38,10 +38,11 @@
   font-size: 15px;
   color: #787877;
   font-family: Tahoma, Helvetica, sans-serif;
-  margin: 10px 0;
+  margin: 25px 0 10px;
 }
 
 .deliver__method-box{
+  margin-top: 25px;
   height: 30px;
 }
 
@@ -53,8 +54,8 @@
 .deliver__hr{
   height: 1px;
   width: 100%;
-  background-color: lightgrey;
-  margin: 20px 0;
+  background-color: #f3f3f3;
+  margin: 30px 0 20px;
 }
 
 .deliver__address-box{
@@ -62,7 +63,7 @@
 }
 
 .deliver__time-box{
-  margin: 15px 0;
+  margin: 20px 0 15px;
   //height: 40px;
 
   &:after{
@@ -84,11 +85,11 @@
 }
 
 .deliver__time-earlier-box{
-  margin: 5px 0;
+  margin: 25px 0 5px;
 }
 
 .deliver__pay-method{
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .deliver__pay-method_cash-box{
@@ -119,6 +120,7 @@
   font-size: 20px;
   color: #20201f;
   font-family: Tahoma, Helvetica, sans-serif;
+  margin-bottom: 40px;
 }
 
 .deliver__replace{
@@ -133,7 +135,7 @@
 }
 
 .deliver_recall-fail{
-  margin: 2px 27px;
+  margin: 2px 28px;
 }
 
 .deliver__sum{
@@ -179,6 +181,22 @@
   width: 150px;
 }
 
+.deliver__offer-box{
+  margin: 15px 28px 0;
+}
+
+.deliver__offer{
+  font-size: 15px;
+  color: #e45304;
+  font-family: Tahoma, Helvetica, sans-serif;
+  text-decoration: underline;
+
+}
+
 .deliver__confirm{
   margin-top: 90px;
+}
+
+.deliver__products{
+  margin: 10px 73px;
 }

@@ -1053,6 +1053,111 @@ body {
   padding-left: 40px;
 }
 
+.product-linear__table {
+  width: 100%;
+}
+
+.product-linear {
+  padding-top: 10px;
+}
+.product-linear:first-child {
+  padding-top: 0;
+}
+
+.product-linear__space {
+  height: 10px;
+}
+
+.product-linear__pic-box {
+  width: 8%;
+  text-align: center;
+  vertical-align: middle;
+  box-sizing: border-box;
+  padding: 10px 0 10px 25px;
+  border-top: 1px solid #f3f3f3;
+  border-bottom: 1px solid #f3f3f3;
+  border-left: 1px solid #f3f3f3;
+}
+
+.product-linear__pic {
+  max-width: 90%;
+  max-height: 50px;
+}
+
+.product-linear__title {
+  width: 22%;
+  font-size: 20px;
+  color: #20201f;
+  font-family: Tahoma, Helvetica, sans-serif;
+  vertical-align: middle;
+  box-sizing: border-box;
+  padding: 10px 0 10px 25px;
+  border-top: 1px solid #f3f3f3;
+  border-bottom: 1px solid #f3f3f3;
+}
+
+.product-linear__volume {
+  width: 6%;
+  font-size: 20px;
+  color: #787877;
+  font-family: Tahoma, Helvetica, sans-serif;
+  vertical-align: middle;
+  box-sizing: border-box;
+  padding: 10px 0 10px 25px;
+  border-top: 1px solid #f3f3f3;
+  border-bottom: 1px solid #f3f3f3;
+}
+
+.product-linear__origin {
+  width: 22%;
+  font-size: 20px;
+  color: #939290;
+  font-family: Tahoma, Helvetica, sans-serif;
+  vertical-align: middle;
+  box-sizing: border-box;
+  padding: 10px 0 10px 25px;
+  border-top: 1px solid #f3f3f3;
+  border-bottom: 1px solid #f3f3f3;
+}
+
+.product-linear__seller {
+  width: 13%;
+  font-size: 20px;
+  vertical-align: middle;
+  box-sizing: border-box;
+  padding: 10px 0 10px 25px;
+  border-top: 1px solid #f3f3f3;
+  border-bottom: 1px solid #f3f3f3;
+  color: #20201f;
+  font-family: Tahoma, Helvetica, sans-serif;
+}
+
+.product-linear__rate-box {
+  width: 10%;
+  font-size: 15px;
+  vertical-align: middle;
+  box-sizing: border-box;
+  padding: 10px 0 10px 25px;
+  border-top: 1px solid #f3f3f3;
+  border-bottom: 1px solid #f3f3f3;
+  color: #f5d130;
+  font-family: Tahoma, Helvetica, sans-serif;
+}
+
+.product-linear__price {
+  text-align: right;
+  width: 13%;
+  padding: 10px 25px;
+  font-size: 25px;
+  vertical-align: middle;
+  box-sizing: border-box;
+  border-top: 1px solid #f3f3f3;
+  border-bottom: 1px solid #f3f3f3;
+  border-right: 1px solid #f3f3f3;
+  color: #20201f;
+  font-family: Tahoma, Helvetica, sans-serif;
+}
+
 .recipes {
   margin-left: 409px;
   padding: 100px 0;
@@ -2248,12 +2353,12 @@ body {
 }
 
 .deliver {
-  padding-bottom: 50px;
+  padding: 20px 0 50px;
 }
 
 .deliver__title-box {
   margin: 20px 70px 0;
-  padding-bottom: 5px;
+  padding-bottom: 13px;
   border-bottom: 1px solid #489247;
 }
 
@@ -2264,8 +2369,8 @@ body {
 }
 
 .deliver__columns {
-  margin: 40px 73px 0;
-  border: 1px solid lightgrey;
+  margin: 50px 73px 0;
+  border: 1px solid #f3f3f3;
 }
 
 .deliver__table {
@@ -2274,7 +2379,7 @@ body {
 
 .deliver__column {
   padding: 24px;
-  border-left: 1px solid lightgrey;
+  border-left: 1px solid #f3f3f3;
   width: 33.3%;
   vertical-align: top;
 }
@@ -2286,10 +2391,11 @@ body {
   font-size: 15px;
   color: #787877;
   font-family: Tahoma, Helvetica, sans-serif;
-  margin: 10px 0;
+  margin: 25px 0 10px;
 }
 
 .deliver__method-box {
+  margin-top: 25px;
   height: 30px;
 }
 
@@ -2301,8 +2407,8 @@ body {
 .deliver__hr {
   height: 1px;
   width: 100%;
-  background-color: lightgrey;
-  margin: 20px 0;
+  background-color: #f3f3f3;
+  margin: 30px 0 20px;
 }
 
 .deliver__address-box {
@@ -2310,7 +2416,7 @@ body {
 }
 
 .deliver__time-box {
-  margin: 15px 0;
+  margin: 20px 0 15px;
 }
 .deliver__time-box:after {
   content: "";
@@ -2330,11 +2436,11 @@ body {
 }
 
 .deliver__time-earlier-box {
-  margin: 5px 0;
+  margin: 25px 0 5px;
 }
 
 .deliver__pay-method {
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .deliver__pay-method_cash-box {
@@ -2362,6 +2468,7 @@ body {
   font-size: 20px;
   color: #20201f;
   font-family: Tahoma, Helvetica, sans-serif;
+  margin-bottom: 40px;
 }
 
 .deliver__replace {
@@ -2376,7 +2483,7 @@ body {
 }
 
 .deliver_recall-fail {
-  margin: 2px 27px;
+  margin: 2px 28px;
 }
 
 .deliver__sum {
@@ -2421,8 +2528,23 @@ body {
   width: 150px;
 }
 
+.deliver__offer-box {
+  margin: 15px 28px 0;
+}
+
+.deliver__offer {
+  font-size: 15px;
+  color: #e45304;
+  font-family: Tahoma, Helvetica, sans-serif;
+  text-decoration: underline;
+}
+
 .deliver__confirm {
   margin-top: 90px;
+}
+
+.deliver__products {
+  margin: 10px 73px;
 }
 
 .about {
