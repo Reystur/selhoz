@@ -2547,6 +2547,78 @@ body {
   margin: 10px 73px;
 }
 
+.profile::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.profile {
+  margin-left: 409px;
+  padding: 100px 0;
+  width: 966px;
+}
+
+.contacts__title-box {
+  border-bottom: 1px solid #489247;
+  margin: 20px 70px 0;
+  padding-bottom: 13px;
+}
+
+.contacts__title {
+  font-size: 25px;
+  color: #20201f;
+  font-family: Tahoma, Helvetica, sans-serif;
+}
+
+.contacts__info {
+  margin: 0 70px;
+}
+.contacts__info:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.contacts__block {
+  float: left;
+  width: 50%;
+}
+
+.contact__pic {
+  width: 100%;
+  height: 365px;
+}
+
+.contacts__option {
+  margin-top: 30px;
+  height: 32px;
+}
+
+.contacts__option_name {
+  line-height: 32px;
+  font-size: 20px;
+  color: #20201f;
+  font-family: Tahoma, Helvetica, sans-serif;
+  float: left;
+}
+
+.contacts__option_value {
+  margin-left: 100px;
+  font-size: 25px;
+  line-height: 32px;
+  color: #6aaa6d;
+  font-family: Tahoma, Helvetica, sans-serif;
+}
+
+.contacts__map {
+  margin-top: 180px;
+}
+
+.contacts__map_pic {
+  width: 100%;
+}
+
 .about {
   margin-left: 409px;
   padding: 100px 0 0;

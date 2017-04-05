@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/lib/jquery/3.1.1.min.js"></script>
+    <title>Contacts</title>
+</head>
+<body>
+<header class="header"></header>
+<script>
+    $(function(){
+        $(".header").load("header.html");
+    });
+</script>
+<div class="wrapper">
+    <div class="contacts">
+        <div class="contacts__title-box">
+            <div class="contacts__title">Контакты</div>
+        </div>
+        <div class="contacts__info">
+            <div class="contacts__block">
+                <div class="contacts__pic-box">
+                    <img src="img/contacts/pic-1.png" alt="" class="contact__pic">
+                </div>
+                <div class="contacts__option">
+                    <div class="contacts__option_name">Телефон:</div>
+                    <div class="contacts__option_value">8 921 123 45 67</div>
+                </div>
+                <div class="contacts__option">
+                    <div class="contacts__option_name">Адрес:</div>
+                    <div class="contacts__option_value">Ул. Ленина 35</div>
+                </div>
+            </div>
+            <div class="contacts__block">
+                <div class="contacts__pic-box">
+                    <img src="img/contacts/pic-2.png" alt="" class="contact__pic">
+                </div>
+                <div class="contacts__option">
+                    <div class="contacts__option_name">Телефон:</div>
+                    <div class="contacts__option_value">8 921 123 45 67</div>
+                </div>
+                <div class="contacts__option">
+                    <div class="contacts__option_name">Адрес:</div>
+                    <div class="contacts__option_value">Ул. Ленина 35</div>
+                </div>
+            </div>
+        </div>
+        <div class="contacts__map">
+            <img src="img/contacts/map.png" alt="" class="contacts__map_pic">
+        </div>
+    </div>
+</div>
+<footer class="footer"></footer>
+<script>
+    $(function(){
+        $(".footer").load("footer.html");
+    });
+</script>
+</body>
+</html>

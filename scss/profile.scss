@@ -1,0 +1,11 @@
+.profile::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.profile {
+  margin-left: 409px;
+  padding: 100px 0;
+  width: 966px;
+}
