@@ -151,7 +151,7 @@ body {
 
 .header__search-border {
   height: 46px;
-  border: 1px solid #489247;
+  border: 1px solid #487f4b;
   border-radius: 3px;
 }
 
@@ -178,7 +178,7 @@ body {
 
 .header__bottom-menu {
   height: 51px;
-  background-color: #38ac6a;
+  background-color: #6AAA6D;
   box-shadow: 0 0 7px rgba(0, 0, 0, 0.35);
 }
 
@@ -193,7 +193,7 @@ body {
   float: left;
   width: 300px;
   height: 100%;
-  border-right: 2px solid #489247;
+  border-right: 2px solid #487f4b;
 }
 
 .header__delivery {
@@ -252,7 +252,7 @@ body {
 }
 
 .footer__inner {
-  background-color: #38ac6a;
+  background-color: #6AAA6D;
   height: 84px;
 }
 

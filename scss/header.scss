@@ -85,7 +85,7 @@
 
 .header__search-border{
   height: 46px;
-  border: 1px solid #489247;
+  border: 1px solid $header-addition;
   border-radius: 3px;
 }
 
@@ -112,7 +112,7 @@
 
 .header__bottom-menu{
   height: 51px;
-  background-color: #38ac6a;
+  background-color: $header-bg;
   box-shadow: 0 0 7px rgba(0,0,0,0.35);
 }
 
@@ -127,7 +127,7 @@
   float: left;
   width: 300px;
   height: 100%;
-  border-right: 2px solid #489247;
+  border-right: 2px solid $header-addition;
 }
 
 .header__delivery{

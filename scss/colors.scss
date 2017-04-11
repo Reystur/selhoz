@@ -1,0 +1,8 @@
+$palette: (
+  "Aqua Forest": #6AAA6D,
+);
+
+$header-bg: map-get($palette, "Aqua Forest");
+$header-addition: darken($header-bg, 15%);
+
+$footer-bg: map-get($palette, "Aqua Forest");
