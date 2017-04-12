@@ -3,6 +3,10 @@
   position: absolute;
 }
 
+.radio-box{
+  position: relative;
+}
+
 .checkbox, .checkbox-label, .radio, .radio-label {
   display: inline-block;
   cursor: pointer;
@@ -10,15 +14,15 @@
 
 .checkbox + .checkbox-label:before, .radio + .radio-label:before {
   background: #fff;
-  display: inline-block;
+  display: block;
   content: '';
   width: 19px;
   height: 19px;
   box-sizing: border-box;
   border: solid 3px #6aaa6d;
-  position: relative;
+  position: absolute;
+  left: 0;
   margin-right: 5px;
-  top: 2px;
 }
 
 .checkbox_small + .checkbox-label_small:before, .radio_small + .radio-label_small:before {
@@ -26,7 +30,6 @@
   height: 13px;
   border: solid 2px #6aaa6d;
   margin-right: 5px;
-  top: 1px;
 }
 
 .checkbox_alert + .checkbox-label_alert:before, .radio_alert + .radio-label_alert:before {
@@ -38,11 +41,12 @@
   color: #20201f;
   font-size: 20px;
   line-height: 22px;
+  padding-left: 25px;
 }
 
 .checkbox-label_small, .radio-label_small {
-  font-size: 15px;
-  line-height: 17px;
+  font-size: 16px;
+  line-height: 18px;
 }
 
 .checkbox-label_alert, .radio-label_alert {
@@ -56,14 +60,14 @@
   width: 9px;
   height: 9px;
   background-color: #6aaa6d;
-  top: 7px;
+  top: 5px;
   left: 5px;
 }
 
 .checkbox_small:checked + .checkbox-label_small:after, .radio_small:checked + .radio-label_small:after {
   width: 5px;
   height: 5px;
-  top: 6px;
+  top: 4px;
   left: 4px;
 }
 
@@ -73,7 +77,7 @@
 
 .label-shutted{
   color: #787877;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .label-attention{

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/lib/jquery/3.1.1.min.js"></script>
+    <title>Личный кабинет</title>
+</head>
+<body>
+<header class="header"></header>
+<script>
+    $(function(){
+        $(".header").load("header.html");
+    });
+</script>
+<div class="wrapper">
+    <div class="page-sidebar">
+        <div class="page-sidebar__title">Личный кабинет</div>
+        <div class="page-sidebar__list">
+            <a href="#" class="page-sidebar__element">История заказов</a>
+            <a href="#" class="page-sidebar__element page-sidebar__element_active">Отслеживание заказа</a>
+            <a href="#" class="page-sidebar__element">Настройки профиля</a>
+        </div>
+    </div>
+    <div class="profile">
+        <div class="profile-history"></div>
+        <div class="profile-track">
+            <div class="profile-track__info">
+                <div class="profile-track__info-left">
+                    <div class="profile-track__sum">2305,00р</div>
+                    <div class="profile-track__options">
+                        <div class="profile-track__option">7 товаров в корзине</div>
+                        <div class="profile-track__option">общий вес 3,1кг</div>
+                        <div class="profile-track__option">доставка 25 авг 20:00</div>
+                    </div>
+                </div>
+                <div class="profile-track__info-right">
+                    <div class="profile-track__from">Лента Лиговский</div>
+                    <div class="profile-track__to">
+                        Санкт-Петербург<br>
+                        Лиговский пр., д. 283А
+                    </div>
+                    <div class="profile-track__state profile-track__state_1">
+                        <div class="profile-track__state-bar-bg"></div>
+                        <div class="profile-track__state-bar"></div>
+                        <div class="profile-track__state-description">Комплектуется</div>
+                        <div class="profile-track__state-cart"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-track__status">
+                <div class="profile-track__status-title">Состояние заказа</div>
+                <table class="profile-track__table">
+                    <tr>
+                        <th class="profile-track__table-number">#</th>
+                        <th class="profile-track__table-operation">Операция</th>
+                        <th class="profile-track__table-description">Пояснение</th>
+                    </tr>
+                    <tr>
+                        <td class="profile-track__table-number">3</td>
+                        <td class="profile-track__table-operation">Комплектуется</td>
+                        <td class="profile-track__table-description">Мы комплектуем ваш заказ</td>
+                    </tr>
+                    <tr>
+                        <td class="profile-track__table-number">2</td>
+                        <td class="profile-track__table-operation">Офомлен</td>
+                        <td class="profile-track__table-description">Ваш заказ принят и поступит в очередь на комплектацию. Рассчетная стоимость заказа: 2305 р.</td>
+                    </tr>
+                    <tr>
+                        <td class="profile-track__table-number">1</td>
+                        <td class="profile-track__table-operation">Создан</td>
+                        <td class="profile-track__table-description">Ваш заказ создан</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="profile-track__map-title">На карте</div>
+            <div class="profile-track__map-box">
+                <img src="img/contacts/map.png" class="profile-track__map">
+            </div>
+        </div>
+        <div class="profile-setting"></div>
+    </div>
+</div>
+<footer class="footer"></footer>
+<script>
+    $(function(){
+        $(".footer").load("footer.html");
+    });
+</script>
+</body>
+</html>
