@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/lib/jquery/3.1.1.min.js"></script>
+    <title>Настройки профиля</title>
+</head>
+<body>
+<header class="header"></header>
+<script>
+    $(function(){
+        $(".header").load("header.html");
+    });
+</script>
+<div class="wrapper">
+    <div class="page-sidebar">
+        <div class="page-sidebar__title">Личный кабинет</div>
+        <div class="page-sidebar__list">
+            <a href="#" class="page-sidebar__element">История заказов</a>
+            <a href="#" class="page-sidebar__element">Отслеживание заказа</a>
+            <a href="#" class="page-sidebar__element page-sidebar__element_active">Настройки профиля</a>
+        </div>
+    </div>
+    <div class="profile">
+        <div class="profile-setting">
+            <div class="profile-setting__title-box">
+                <div class="profile-setting__title">Редактирование профиля</div>
+            </div>
+            <div class="profile-setting__block">
+                <div class="profile-setting__3-col">
+                    <div class="profile-setting__3-label">Фамилия</div>
+                    <div class="profile-setting__3-input">
+                        <input type="text" class="input" name="surname">
+                    </div>
+                </div>
+                <div class="profile-setting__3-col">
+                    <div class="profile-setting__3-label">Имя</div>
+                    <div class="profile-setting__3-input">
+                        <input type="text" class="input" name="name">
+                    </div>
+                </div>
+                <div class="profile-setting__3-col">
+                    <div class="profile-setting__3-label">Отчество</div>
+                    <div class="profile-setting__3-input">
+                        <input type="text" class="input" name="patronymic">
+                    </div>
+                </div>
+            </div>
+            <div class="profile-setting__save-box">
+                <a href="#" class="btn">Сохранить</a>
+            </div>
+            <div class="profile-setting__hr"></div>
+            <div class="profile-setting__title-box">
+                <div class="profile-setting__title">Смена конфидинциальных данных</div>
+            </div>
+            <div class="profile-setting__block">
+                <div class="profile-setting__3-col">
+                    <div class="profile-setting__3-label">E-mail</div>
+                    <div class="profile-setting__3-input">
+                        <input type="email" class="input" name="email">
+                    </div>
+                </div>
+                <div class="profile-setting__3-col">
+                    <div class="profile-setting__3-label">Телефон</div>
+                    <div class="profile-setting__3-input">
+                        <input type="text" class="input" name="name">
+                    </div>
+                </div>
+                <div class="profile-setting__3-col">
+                    <div class="profile-setting__3-label">Пароль</div>
+                    <div class="profile-setting__3-input">
+                        <input type="password" class="input" name="password">
+                    </div>
+                </div>
+            </div>
+            <div class="profile-setting__save-box">
+                <a href="#" class="btn">Сохранить</a>
+            </div>
+            <div class="profile-setting__hr"></div>
+            <div class="profile-setting__title-box">
+                <div class="profile-setting__title">Доставка</div>
+            </div>
+            <div class="profile-setting__block">
+                <div class="profile-setting__2-col">
+                    <div class="profile-setting__2-label">Адреса доставки</div>
+                    <div class="profile-setting__2-input">
+                        <div class="select">
+                            <div class="select__selected">
+                                Ул. Ленина 32
+                            </div>
+                            <div class="select__options">
+                                <div class="select__option">
+                                    Ул. Ленина 32
+                                </div>
+                                <div class="select__option">
+                                    Ул. Сталина 23
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-setting__2-col">
+                    <div class="profile-setting__2-label profile-setting__2-label">Оповещение</div>
+                    <div class="profile-setting__notification-input">
+                        <div class="checkbox-box">
+                            <input checked="" class="checkbox" type="checkbox" id="checkbox-1" name="checkbox-1"><label class="checkbox-label checkbox-label_small" for="checkbox-1">E-mail</label>
+                        </div>
+                    </div>
+                    <div class="profile-setting__notification-input">
+                        <div class="checkbox-box">
+                            <input checked="" class="checkbox" type="checkbox" id="checkbox-2" name="checkbox-2"><label class="checkbox-label checkbox-label_small" for="checkbox-2">Телефон</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-setting__save-box">
+                <a href="#" class="btn">Сохранить</a>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="footer"></footer>
+<script>
+    $(function(){
+        $(".footer").load("footer.html");
+    });
+</script>
+</body>
+</html>

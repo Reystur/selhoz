@@ -93,16 +93,16 @@
   background-color: #fff;
   border: solid 1px #489247;
   cursor: pointer;
-  //-webkit-transform: translateZ(0);
-  //transition: background-color 0.5s, color 0.5s;
   font-size: 20px;
   line-height: 42px;
 
-  //&:hover {
-  //  background-color: $controls-active;
-  //  color: $controls-active-text;
-  //  border-radius: 5px;
-  //}
+  -webkit-transform: translateZ(0);
+  transition: background-color 0.5s, color 0.5s;
+
+  &:hover {
+    background-color: #489247;
+    color: #fff;
+  }
 }
 
 .btn_block {
