@@ -1,8 +1,13 @@
 $palette: (
   "Chateau Green": #38AC6A,
+  "Tuatara": #1A1A19,
+  "International Orange": #ff5200,
 );
 
 $header-bg: map-get($palette, "Chateau Green");
 $header-addition: darken($header-bg, 15%);
 
 $footer-bg: map-get($palette, "Chateau Green");
+
+$font-primary: map_get($palette, "Tuatara");
+$font-alert: map_get($palette, "International Orange");

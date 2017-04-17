@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/lib/jquery/3.1.1.min.js"></script>
+    <title>История заказов</title>
+</head>
+<body>
+<header class="header"></header>
+<script>
+    $(function(){
+        $(".header").load("header.html");
+    });
+</script>
+<div class="wrapper">
+    <div class="page-sidebar">
+        <div class="page-sidebar__title">Личный кабинет</div>
+        <div class="page-sidebar__list">
+            <a href="#" class="page-sidebar__element page-sidebar__element_active">История заказов</a>
+            <a href="#" class="page-sidebar__element">Отслеживание заказа</a>
+            <a href="#" class="page-sidebar__element">Настройки профиля</a>
+        </div>
+    </div>
+    <div class="profile">
+        <div class="profile-history">
+            <div class="profile-history__unit profile-history__unit_active">
+                <div class="profile-history__short-info">
+                    <div class="profile-history__short-history">
+                        <a href="#" class="profile-history__short-history-link">История</a>
+                    </div>
+                    <div class="profile-history__short-status">Выполнен</div>
+                    <div class="profile-history__short-id">
+                        <a href="#" class="profile-history__short-id-link">№74551515</a>
+                    </div>
+                    <div class="profile-history__short-date">9 августа 2016 13:04</div>
+                    <div class="profile-history__short-summary">1 товар на 6455,92 р.</div>
+                </div>
+                <div class="profile-history__info">
+                    <div class="profile-history__options">
+                        <div class="profile-history__option-box">
+                            <div class="profile-history__option-label">Способ оплаты</div>
+                            <div class="profile-history__option">Наличная</div>
+                        </div>
+                        <div class="profile-history__option-box">
+                            <div class="profile-history__option-label">Способ доставки</div>
+                            <div class="profile-history__option">Самовывоз из Новой Почты</div>
+                        </div>
+                        <div class="profile-history__option-box">
+                            <div class="profile-history__option-label">Имя и фамилия</div>
+                            <div class="profile-history__option">Кудрявцев Владимир</div>
+                        </div>
+                        <div class="profile-history__option-box">
+                            <div class="profile-history__option-label">Телефон</div>
+                            <div class="profile-history__option">+380 (00) 001-96-35</div>
+                        </div>
+                        <div class="profile-history__option-box">
+                            <div class="profile-history__option-label">Адрес пункта самовывоза</div>
+                            <div class="profile-history__option">Отделение №45, ул. Энвера Ахсарова, д. 18, 0-800-500-609
+                            </div>
+                        </div>
+                        <div class="profile-history__option-box">
+                            <div class="profile-history__option-label">Эл. почта</div>
+                            <div class="profile-history__option">vladimir.kudryavcev.1988@mail.ru</div>
+                        </div>
+                    </div>
+                    <div class="profile-history__products">
+                        <table class="profile-history__list">
+                            <tr>
+                                <td class="profile-history__product-pic-box">
+                                    <img src="img/product/1.png" class="profile-history__product-pic">
+                                </td>
+                                <td class="profile-history__product-description">
+                                    <div class="profile-history__product-name">
+                                        Хинкали с говядиной и бараненной ТМ Риха
+                                    </div>
+                                    <div class="profile-history__product-volume">
+                                        800г
+                                    </div>
+                                    <div class="profile-history__product-seller">
+                                        Продавец: Иванов Иван Иванович
+                                    </div>
+                                </td>
+                                <td class="profile-history__product-count">
+                                    1 шт.
+                                </td>
+                                <td class="profile-history__product-price">
+                                    375р.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="profile-history__product-pic-box">
+                                    <img src="img/product/1.png" class="profile-history__product-pic">
+                                </td>
+                                <td class="profile-history__product-description">
+                                    <div class="profile-history__product-name">
+                                        Хинкали с говядиной и бараненной ТМ Риха
+                                    </div>
+                                    <div class="profile-history__product-volume">
+                                        800г
+                                    </div>
+                                    <div class="profile-history__product-seller">
+                                        Продавец: Иванов Иван Иванович
+                                    </div>
+                                </td>
+                                <td class="profile-history__product-count">
+                                    1 шт.
+                                </td>
+                                <td class="profile-history__product-price">
+                                    375р.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="profile-history__product-pic-box">
+                                    <img src="img/product/1.png" class="profile-history__product-pic">
+                                </td>
+                                <td class="profile-history__product-description">
+                                    <div class="profile-history__product-name">
+                                        Хинкали с говядиной и бараненной ТМ Риха
+                                    </div>
+                                    <div class="profile-history__product-volume">
+                                        800г
+                                    </div>
+                                    <div class="profile-history__product-seller">
+                                        Продавец: Иванов Иван Иванович
+                                    </div>
+                                </td>
+                                <td class="profile-history__product-count">
+                                    1 шт.
+                                </td>
+                                <td class="profile-history__product-price">
+                                    375р.
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="profile-history__deliver-box">
+                        <div class="profile-history__deliver-label">Доставка</div>
+                        <div class="profile-history__deliver-sum">500р.</div>
+                        <div class="profile-history__deliver-address">(Самовывоз из Новой Почты)</div>
+                    </div>
+                    <div class="profile-history__status-box">
+                        <div class="profile-history__status-label">Статус заказа:</div>
+                        <div class="profile-history__status profile-history__status_success">Выполнен</div>
+                        <div class="profile-history__sum">1 625.</div>
+                        <div class="profile-history__sum-label">Итого к оплате</div>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-history__unit">
+                <div class="profile-history__short-info">
+                    <div class="profile-history__short-history">
+                        <a href="#" class="profile-history__short-history-link">История</a>
+                    </div>
+                    <div class="profile-history__short-status">Выполнен</div>
+                    <div class="profile-history__short-id">
+                        <a href="#" class="profile-history__short-id-link">№74551515</a>
+                    </div>
+                    <div class="profile-history__short-date">9 августа 2016 13:04</div>
+                    <div class="profile-history__short-summary">1 товар на 6455,92 р.</div>
+                </div>
+                <div class="profile-history__info">
+                    <div class="profile-history__options">
+                        <div class="profile-history__option-box">
+                            <div class="profile-history__option-label">Способ оплаты</div>
+                            <div class="profile-history__option">Наличная</div>
+                        </div>
+                        <div class="profile-history__option-box">
+                            <div class="profile-history__option-label">Способ доставки</div>
+                            <div class="profile-history__option">Самовывоз из Новой Почты</div>
+                        </div>
+                        <div class="profile-history__option-box">
+                            <div class="profile-history__option-label">Имя и фамилия</div>
+                            <div class="profile-history__option">Кудрявцев Владимир</div>
+                        </div>
+                        <div class="profile-history__option-box">
+                            <div class="profile-history__option-label">Телефон</div>
+                            <div class="profile-history__option">+380 (00) 001-96-35</div>
+                        </div>
+                        <div class="profile-history__option-box">
+                            <div class="profile-history__option-label">Адрес пункта самовывоза</div>
+                            <div class="profile-history__option">Отделение №45, ул. Энвера Ахсарова, д. 18, 0-800-500-609
+                            </div>
+                        </div>
+                        <div class="profile-history__option-box">
+                            <div class="profile-history__option-label">Эл. почта</div>
+                            <div class="profile-history__option">vladimir.kudryavcev.1988@mail.ru</div>
+                        </div>
+                    </div>
+                    <div class="profile-history__products">
+                        <table class="profile-history__list">
+                            <tr>
+                                <td class="profile-history__product-pic-box">
+                                    <img src="img/product/1.png" class="profile-history__product-pic">
+                                </td>
+                                <td class="profile-history__product-description">
+                                    <div class="profile-history__product-name">
+                                        Хинкали с говядиной и бараненной ТМ Риха
+                                    </div>
+                                    <div class="profile-history__product-volume">
+                                        800г
+                                    </div>
+                                    <div class="profile-history__product-seller">
+                                        Продавец: Иванов Иван Иванович
+                                    </div>
+                                </td>
+                                <td class="profile-history__product-count">
+                                    1 шт.
+                                </td>
+                                <td class="profile-history__product-price">
+                                    375р.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="profile-history__product-pic-box">
+                                    <img src="img/product/1.png" class="profile-history__product-pic">
+                                </td>
+                                <td class="profile-history__product-description">
+                                    <div class="profile-history__product-name">
+                                        Хинкали с говядиной и бараненной ТМ Риха
+                                    </div>
+                                    <div class="profile-history__product-volume">
+                                        800г
+                                    </div>
+                                    <div class="profile-history__product-seller">
+                                        Продавец: Иванов Иван Иванович
+                                    </div>
+                                </td>
+                                <td class="profile-history__product-count">
+                                    1 шт.
+                                </td>
+                                <td class="profile-history__product-price">
+                                    375р.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="profile-history__product-pic-box">
+                                    <img src="img/product/1.png" class="profile-history__product-pic">
+                                </td>
+                                <td class="profile-history__product-description">
+                                    <div class="profile-history__product-name">
+                                        Хинкали с говядиной и бараненной ТМ Риха
+                                    </div>
+                                    <div class="profile-history__product-volume">
+                                        800г
+                                    </div>
+                                    <div class="profile-history__product-seller">
+                                        Продавец: Иванов Иван Иванович
+                                    </div>
+                                </td>
+                                <td class="profile-history__product-count">
+                                    1 шт.
+                                </td>
+                                <td class="profile-history__product-price">
+                                    375р.
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="profile-history__deliver-box">
+                        <div class="profile-history__deliver-label">Доставка</div>
+                        <div class="profile-history__deliver-sum">500р.</div>
+                        <div class="profile-history__deliver-address">(Самовывоз из Новой Почты)</div>
+                    </div>
+                    <div class="profile-history__status-box">
+                        <div class="profile-history__status-label">Статус заказа:</div>
+                        <div class="profile-history__status profile-history__status_success">Выполнен</div>
+                        <div class="profile-history__sum">1 625.</div>
+                        <div class="profile-history__sum-label">Итого к оплате</div>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-history__unit">
+                <div class="profile-history__short-info">
+                    <div class="profile-history__short-history">
+                        <a href="#" class="profile-history__short-history-link">История</a>
+                    </div>
+                    <div class="profile-history__short-status">Выполнен</div>
+                    <div class="profile-history__short-id">
+                        <a href="#" class="profile-history__short-id-link">№74551515</a>
+                    </div>
+                    <div class="profile-history__short-date">9 августа 2016 13:04</div>
+                    <div class="profile-history__short-summary">1 товар на 6455,92 р.</div>
+                </div>
+                <div class="profile-history__info">
+                    <div class="profile-history__options">
+                        <div class="profile-history__option-box">
+                            <div class="profile-history__option-label">Способ оплаты</div>
+                            <div class="profile-history__option">Наличная</div>
+                        </div>
+                        <div class="profile-history__option-box">
+                            <div class="profile-history__option-label">Способ доставки</div>
+                            <div class="profile-history__option">Самовывоз из Новой Почты</div>
+                        </div>
+                        <div class="profile-history__option-box">
+                            <div class="profile-history__option-label">Имя и фамилия</div>
+                            <div class="profile-history__option">Кудрявцев Владимир</div>
+                        </div>
+                        <div class="profile-history__option-box">
+                            <div class="profile-history__option-label">Телефон</div>
+                            <div class="profile-history__option">+380 (00) 001-96-35</div>
+                        </div>
+                        <div class="profile-history__option-box">
+                            <div class="profile-history__option-label">Адрес пункта самовывоза</div>
+                            <div class="profile-history__option">Отделение №45, ул. Энвера Ахсарова, д. 18, 0-800-500-609
+                            </div>
+                        </div>
+                        <div class="profile-history__option-box">
+                            <div class="profile-history__option-label">Эл. почта</div>
+                            <div class="profile-history__option">vladimir.kudryavcev.1988@mail.ru</div>
+                        </div>
+                    </div>
+                    <div class="profile-history__products">
+                        <table class="profile-history__list">
+                            <tr>
+                                <td class="profile-history__product-pic-box">
+                                    <img src="img/product/1.png" class="profile-history__product-pic">
+                                </td>
+                                <td class="profile-history__product-description">
+                                    <div class="profile-history__product-name">
+                                        Хинкали с говядиной и бараненной ТМ Риха
+                                    </div>
+                                    <div class="profile-history__product-volume">
+                                        800г
+                                    </div>
+                                    <div class="profile-history__product-seller">
+                                        Продавец: Иванов Иван Иванович
+                                    </div>
+                                </td>
+                                <td class="profile-history__product-count">
+                                    1 шт.
+                                </td>
+                                <td class="profile-history__product-price">
+                                    375р.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="profile-history__product-pic-box">
+                                    <img src="img/product/1.png" class="profile-history__product-pic">
+                                </td>
+                                <td class="profile-history__product-description">
+                                    <div class="profile-history__product-name">
+                                        Хинкали с говядиной и бараненной ТМ Риха
+                                    </div>
+                                    <div class="profile-history__product-volume">
+                                        800г
+                                    </div>
+                                    <div class="profile-history__product-seller">
+                                        Продавец: Иванов Иван Иванович
+                                    </div>
+                                </td>
+                                <td class="profile-history__product-count">
+                                    1 шт.
+                                </td>
+                                <td class="profile-history__product-price">
+                                    375р.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="profile-history__product-pic-box">
+                                    <img src="img/product/1.png" class="profile-history__product-pic">
+                                </td>
+                                <td class="profile-history__product-description">
+                                    <div class="profile-history__product-name">
+                                        Хинкали с говядиной и бараненной ТМ Риха
+                                    </div>
+                                    <div class="profile-history__product-volume">
+                                        800г
+                                    </div>
+                                    <div class="profile-history__product-seller">
+                                        Продавец: Иванов Иван Иванович
+                                    </div>
+                                </td>
+                                <td class="profile-history__product-count">
+                                    1 шт.
+                                </td>
+                                <td class="profile-history__product-price">
+                                    375р.
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="profile-history__deliver-box">
+                        <div class="profile-history__deliver-label">Доставка</div>
+                        <div class="profile-history__deliver-sum">500р.</div>
+                        <div class="profile-history__deliver-address">(Самовывоз из Новой Почты)</div>
+                    </div>
+                    <div class="profile-history__status-box">
+                        <div class="profile-history__status-label">Статус заказа:</div>
+                        <div class="profile-history__status profile-history__status_success">Выполнен</div>
+                        <div class="profile-history__sum">1 625.</div>
+                        <div class="profile-history__sum-label">Итого к оплате</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="footer"></footer>
+<script>
+    $(function(){
+        $(".footer").load("footer.html");
+    });
+</script>
+</body>
+</html>

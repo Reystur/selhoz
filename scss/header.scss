@@ -125,7 +125,7 @@
 .header__menu-left{
   margin-left: 69px;
   float: left;
-  width: 300px;
+  width: 220px;
   height: 100%;
   border-right: 2px solid $header-addition;
 }
@@ -178,4 +178,37 @@
   font-family: Tahoma, Helvetica, sans-serif;
   text-transform: uppercase;
   padding: 14px 15px;
+  position: relative;
+
+  &:hover .header__menu-dropdown{
+    display: block;
+  }
+}
+
+.header__menu-element-link{
+  color: #fff;
+  font-size: 18px;
+  font-family: Tahoma, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+.header__menu-dropdown{
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 150px;
+  z-index: 100;
+  display: none;
+}
+
+.header__menu-dropdown-element{
+  display: block;
+  //color: #fff;
+  font-family: Tahoma,Helvetica,sans-serif;
+  font-size: 18px;
+  padding: 14px 15px;
+  text-transform: uppercase;
+  background-color: #38AC6A;
+  color: #fff;
+  border-top: 1px solid #fff;
 }

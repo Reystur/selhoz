@@ -52,7 +52,7 @@
 .popup-product__title{
   padding: 1px 80px 0 50px;
   font-size: 20px;
-  color: #20201f;
+  color: $font-primary;
   font-family: Tahoma, Helvetica, sans-serif;
 }
 
@@ -89,14 +89,14 @@
 
 .popup-product__price{
   font-size: 32px;
-  color: #20201f;
+  color: $font-primary;
   font-family: Tahoma, Helvetica, sans-serif;
 }
 
 .popup-product__price-4-one-title{
   padding-top: 3px;
   font-size: 18px;
-  color: #20201f;
+  color: $font-primary;
   font-family: Tahoma, Helvetica, sans-serif;
 }
 
@@ -182,7 +182,7 @@
   padding: 15px 0;
   border-bottom: 2px solid transparent;
   font-size: 20px;
-  color: #20201f;
+  color: $font-primary;
   font-family: Tahoma, Helvetica, sans-serif;
   cursor: pointer;
   width: 25%;
@@ -203,7 +203,7 @@
 .popup-product__seller{
   padding: 13px 80px 0 50px;
   font-size: 15px;
-  color: #20201f;
+  color: $font-primary;
   font-family: Tahoma, Helvetica, sans-serif;
 }
 
@@ -215,7 +215,7 @@
 .popup-product__seller-rate-box{
   padding: 10px 80px 0 50px;
   font-size: 15px;
-  color: #20201f;
+  color: $font-primary;
   font-family: Tahoma, Helvetica, sans-serif;
 }
 
@@ -232,7 +232,7 @@
 
 .popup-confirm__title{
   font-size: 25px;
-  color: #20201f;
+  color: $font-primary;
   font-family: Tahoma, Helvetica, sans-serif;
   padding: 60px 50px 30px;
 }
@@ -255,27 +255,27 @@
   width: 220px;
   float: left;
   font-size: 20px;
-  color: #20201f;
+  color: $font-primary;
   font-family: Tahoma, Helvetica, sans-serif;
 }
 
 .popup-confirm__option_value{
   margin-left: 220px;
   font-size: 20px;
-  color: #20201f;
+  color: $font-primary;
   font-family: Tahoma, Helvetica, sans-serif;
   font-weight: bold;
 }
 
 .popup-confirm__note-title{
-  color: #e45304;
+  color: $font-alert;
   font-size: 20px;
   font-family: Tahoma, Helvetica, sans-serif;
   padding: 40px 50px 0;
 }
 
 .popup-confirm__note{
-  color: #e45304;
+  color: $font-alert;
   font-size: 15px;
   font-family: Tahoma, Helvetica, sans-serif;
   padding: 5px 50px 0;
@@ -305,4 +305,132 @@
   float: right;
   width: 170px;
   border: 1px solid #489247;
+}
+
+.popup-rate{
+  width: 770px;
+  position: relative;
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+.popup-rate__title{
+  font-size: 25px;
+  color: $font-primary;
+  font-family: Tahoma, Helvetica, sans-serif;
+  padding: 0 50px;
+}
+
+.popup-rate__hr{
+  height: 1px;
+  background-color: #e5e5e5;
+  width: 100%;
+  margin: 10px 0 30px;
+}
+
+.popup-rate__hr_bottom{
+  margin: 50px 0;
+}
+
+.popup-rate__option{
+  padding: 20px 50px 0;
+}
+
+.popup-rate__option-label{
+  font-size: 20px;
+  color: $font-primary;
+  font-family: Tahoma, Helvetica, sans-serif;
+  float: left;
+  width: 200px;
+}
+
+.popup-rate__option-stars{
+  width: 160px;
+  height: 30px;
+  float: left;
+}
+
+.popup-rate__option-star{
+  cursor: pointer;
+  display: block;
+  float: left;
+  margin-left: 3px;
+  width: 29px;
+  height: 26px;
+  background: url("../img/star-filled_big.png") no-repeat;
+
+  &:first-child{
+    margin-left: 0;
+  }
+}
+
+.popup-rate__option-star_empty{
+  background: url("../img/star-empty_big.png") no-repeat;
+}
+
+.popup-rate__option-textarea-box{
+  margin-left: 380px;
+}
+
+.popup-rate__option-textarea{
+  width: 100%;
+  height: 100px;
+  box-sizing: border-box;
+  border: 1px solid #f3f3f3;
+  resize: none;
+  padding: 5px 10px;
+
+  &:focus{
+    border: 1px solid #38AC6A;
+  }
+}
+
+.popup-rate__summary{
+  padding: 50px 50px 0;
+}
+
+.popup-rate__summary-label{
+  font-size: 20px;
+  color: $font-primary;
+  font-family: Tahoma, Helvetica, sans-serif;
+  float: left;
+  width: 180px;
+  padding-top: 15px;
+}
+
+.popup-rate__summary-stars{
+  width: 210px;
+  height: 30px;
+  float: left;
+  padding-top: 10px;
+}
+
+.popup-rate__summary-star{
+  //cursor: pointer;
+  display: block;
+  float: left;
+  margin-left: 3px;
+  width: 39px;
+  height: 35px;
+  background: url("../img/star-filled_large.png") no-repeat;
+
+  &:first-child{
+    margin-left: 0;
+  }
+}
+
+.popup-rate__summary-star_empty{
+  background: url("../img/star-empty_large.png") no-repeat;
+}
+
+.popup-rate__summary-rate{
+  font-size: 44px;
+  color: #ffd200;
+  font-family: Tahoma, Helvetica, sans-serif;
+  margin-left: 410px;
+}
+
+.popup-rate__submit-box{
+  padding: 0 50px;
+  text-align: right;
 }
